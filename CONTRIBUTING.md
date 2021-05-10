@@ -4,7 +4,8 @@
 
 ### All contributors will be granted credit on the following list
 
-* CodeStrange ([@docsfinder](https://github.com/docsfinder))
+* Leynier Gutiérrez González ([@leynier](https://github.com/leynier))
+* Carlos Bermudez Porto ([@cbermudez97](https://github.com/cbermudez97))
 
 You can help out by:
 

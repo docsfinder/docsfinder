@@ -15,7 +15,7 @@ docsfinder = "docsfinder.main:app"
 [tool.poetry.dependencies]
 python = "^3.8"
 typer = "^0.3.2"
-fastapi = {extras = ["all"], version = "^0.63.0"}
+fastapi = {extras = ["all"], version = "^0.64.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"

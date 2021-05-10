@@ -1,10 +1,11 @@
 from os.path import join
 
+import typer
 from fastapi import FastAPI, Request
 from fastapi.responses import RedirectResponse
-from typer import Typer, echo
 
 from .api.main import api
+from .core.engine import Engine
 
 app = FastAPI(docs_url=None, redoc_url=None)
 
@@ -16,9 +17,20 @@ def index(request: Request):
     return RedirectResponse(join(request.url.path, "api", ""))
 
 
-typer_app = Typer()
+typer_app = typer.Typer()
 
 
 @typer_app.command()
-def hello():
-    echo("Hello World!")
+def find():
+    typer.echo("Loading ...")
+    engine = Engine()
+    typer.echo("Loaded")
+    while True:
+        query = input("Enter a query: ")
+        documents = engine.find(query)
+        for (document, relevancy) in documents:
+            typer.echo(
+                f"Id: {document.id}, "
+                + f"Relevancy: {relevancy}, "
+                + f"Title: {document.title}",
+            )

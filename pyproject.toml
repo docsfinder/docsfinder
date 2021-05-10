@@ -16,6 +16,11 @@ docsfinder = "docsfinder.main:typer_app"
 python = "^3.8"
 typer = "^0.3.2"
 fastapi = {extras = ["all"], version = "^0.64.0"}
+spacy = "^3.0.6"
+en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm"}
+gensim = "^4.0.1"
+sklearn = "^0.0"
+python-Levenshtein = "^0.12.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"

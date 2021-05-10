@@ -1,3 +1,3 @@
-from .main import app
+from .main import typer_app
 
-app(prog_name="docsfinder")
+typer_app(prog_name="docsfinder")

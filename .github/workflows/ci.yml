@@ -24,8 +24,8 @@ jobs:
       run: make tests
     - name: Upload coverage
       uses: codecov/codecov-action@v1
-      # with:
-      #   token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
     # - name: Report results to DeepSource
     #   run: |
     #     curl https://deepsource.io/cli | sh

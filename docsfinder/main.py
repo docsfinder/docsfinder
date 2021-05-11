@@ -22,7 +22,8 @@ def index(request: Request):
 @app.on_event("startup")
 def startup_event():
     logging.info("Loading model ...")
-    dependencies.engine = Engine("data/all_data.json")
+    dependencies.engine = Engine(300)
+    dependencies.engine.load()
     logging.info("Model loaded")
 
 
@@ -32,17 +33,35 @@ typer_app = typer.Typer()
 @typer_app.command()
 def find(data: str = "data/all_data.json"):
     typer.echo("Loading ...")
-    engine = Engine(data)
+    engine = Engine(300)
+    engine.load()
     typer.echo("Loaded")
     while True:
         query = input("Enter a query: ")
         documents = engine.find(query)
-        for (document, relevancy) in documents:
+        for document in documents:
             typer.echo(
                 f"Id: {document.id}, "
-                + f"Relevancy: {relevancy}, "
+                + f"Relevancy: {document.relevancy}, "
                 + f"Title: {document.title}",
             )
+
+
+@typer_app.command()
+def load():
+    typer.echo("Loading ...")
+    engine = Engine(300)
+    engine.load()
+    typer.echo("Loaded")
+
+
+@typer_app.command()
+def save(data: str = "data/all_data.json"):
+    typer.echo("Loading ...")
+    engine = Engine(300)
+    engine.train(data)
+    typer.echo("Loaded")
+    engine.save()
 
 
 @typer_app.command()
@@ -52,7 +71,8 @@ def test(
     top: int = 10,
 ):
     typer.echo("Loading ...")
-    engine = Engine(data)
+    engine = Engine(300)
+    engine.train(data)
     typer.echo("Loaded")
     typer.echo("Running precision test ...")
     precision = engine.test_precision(query, top)

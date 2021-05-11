@@ -5,7 +5,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 class Finder:
-    def __init__(self, doc_vectors: Dict[str, np.ndarray]):
+    def __init__(self):
+        self.doc_vectors: Dict[str, np.ndarray] = {}
+
+    def load_vectors(self, doc_vectors: Dict[str, np.ndarray]):
         self.doc_vectors = doc_vectors
 
     def find(self, query_vector: np.ndarray) -> List[Tuple[str, float]]:

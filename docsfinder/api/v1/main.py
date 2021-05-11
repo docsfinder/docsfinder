@@ -1,10 +1,10 @@
 from os.path import join
-from typing import List, Tuple
+from typing import List
 
 from fastapi import FastAPI, Request
 from fastapi.responses import RedirectResponse
 
-from ...core.document import Document
+from ...core.full_document import FullDocument
 from ...dependencies import dependencies
 
 api = FastAPI(title="Docs Finder")
@@ -15,6 +15,6 @@ def index(request: Request):
     return RedirectResponse(join(request.url.path, "docs"))
 
 
-@api.get("/query", tags=["General"], response_model=List[Tuple[Document, float]])
+@api.get("/query", tags=["General"], response_model=List[FullDocument])
 def run(query: str):
     return dependencies.engine.find(query)

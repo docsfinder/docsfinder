@@ -1,3 +1,4 @@
+import logging
 from os.path import join
 
 import typer
@@ -6,6 +7,7 @@ from fastapi.responses import RedirectResponse
 
 from .api.main import api
 from .core.engine import Engine
+from .dependencies import dependencies
 
 app = FastAPI(docs_url=None, redoc_url=None)
 
@@ -15,6 +17,13 @@ app.mount("/api", api)
 @app.get("/", include_in_schema=False)
 def index(request: Request):
     return RedirectResponse(join(request.url.path, "api", ""))
+
+
+@app.on_event("startup")
+def startup_event():
+    logging.info("Loading model ...")
+    dependencies.engine = Engine("data/all_data.json")
+    logging.info("Model loaded")
 
 
 typer_app = typer.Typer()

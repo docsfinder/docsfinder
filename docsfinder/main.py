@@ -21,9 +21,9 @@ typer_app = typer.Typer()
 
 
 @typer_app.command()
-def find():
+def find(data: str = "data/all_data.json"):
     typer.echo("Loading ...")
-    engine = Engine()
+    engine = Engine(data)
     typer.echo("Loaded")
     while True:
         query = input("Enter a query: ")
@@ -34,3 +34,20 @@ def find():
                 + f"Relevancy: {relevancy}, "
                 + f"Title: {document.title}",
             )
+
+
+@typer_app.command()
+def test(
+    data: str = "data/all_data.json",
+    query: str = "data/all_query.json",
+    top: int = 10,
+):
+    typer.echo("Loading ...")
+    engine = Engine(data)
+    typer.echo("Loaded")
+    typer.echo("Running precision test ...")
+    precision = engine.test_precision(query, top)
+    typer.echo(f"Precision: {precision}")
+    typer.echo("Running recall test ...")
+    recall = engine.test_recall(query, top)
+    typer.echo(f"Recall: {recall}")

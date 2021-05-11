@@ -14,12 +14,7 @@ app = FastAPI(docs_url=None, redoc_url=None)
 
 app.mount("/api", api)
 
-origins = [
-    "https://docsfinder.github.io",
-    "http://localhost",
-    "http://localhost:8080",
-    "http://localhost:58714",
-]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,

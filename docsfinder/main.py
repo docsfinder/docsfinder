@@ -3,6 +3,7 @@ from os.path import join
 
 import typer
 from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 
 from .api.main import api
@@ -12,6 +13,21 @@ from .dependencies import dependencies
 app = FastAPI(docs_url=None, redoc_url=None)
 
 app.mount("/api", api)
+
+origins = [
+    "https://docsfinder.github.io",
+    "http://localhost",
+    "http://localhost:8080",
+    "http://localhost:58714",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/", include_in_schema=False)

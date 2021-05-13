@@ -114,6 +114,7 @@ class Engine:
                 global_precisions.append(precision)
             else:
                 global_precisions.append(0)
+            print(f"Precision of query {query.id} = {global_precisions[-1]}")
         precision = np.array(global_precisions).mean()
         return cast(float, precision)
 

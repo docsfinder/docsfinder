@@ -43,6 +43,8 @@ def token_is_valid(token, remove_stopwords: bool) -> bool:
     if token.is_space:
         # print(f"Token '{token}' is a space.")
         return False
+    # if token.pos_ in ["ADP", "AUX", "CONJ", "DET", "PART", "PRON", "SCONJ"]:
+    #     return False
     return True
 
 

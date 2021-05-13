@@ -31,9 +31,9 @@ def index(request: Request):
 
 
 @app.on_event("startup")
-def startup_event():
+def startup_event(vsize: int = 300):
     logging.info("Loading model ...")
-    dependencies.engine = Engine(300)
+    dependencies.engine = Engine(vsize)
     dependencies.engine.load()
     logging.info("Model loaded")
 
@@ -42,9 +42,12 @@ typer_app = typer.Typer()
 
 
 @typer_app.command()
-def find(data: str = "data/all_data.json"):
+def find(
+    data: str = "data/all_data.json",
+    vsize: int = 300,
+):
     typer.echo("Loading ...")
-    engine = Engine(300)
+    engine = Engine(vsize)
     engine.load()
     typer.echo("Loaded")
     while True:
@@ -59,17 +62,20 @@ def find(data: str = "data/all_data.json"):
 
 
 @typer_app.command()
-def load():
+def load(vsize: int = 300):
     typer.echo("Loading ...")
-    engine = Engine(300)
+    engine = Engine(vsize)
     engine.load()
     typer.echo("Loaded")
 
 
 @typer_app.command()
-def save(data: str = "data/all_data.json"):
+def save(
+    data: str = "data/all_data.json", 
+    vsize: int = 300,
+):
     typer.echo("Loading ...")
-    engine = Engine(300)
+    engine = Engine(vsize)
     engine.train(data)
     typer.echo("Loaded")
     engine.save()
@@ -80,9 +86,10 @@ def test(
     data: str = "data/all_data.json",
     query: str = "data/all_query.json",
     top: int = 10,
+    vsize: int = 300,
 ):
     typer.echo("Loading ...")
-    engine = Engine(300)
+    engine = Engine(vsize)
     engine.train(data)
     typer.echo("Loaded")
     typer.echo("Running precision test ...")

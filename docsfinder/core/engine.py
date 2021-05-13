@@ -1,5 +1,5 @@
 import json
-from typing import List
+from typing import List, Optional, cast
 
 import numpy as np
 from pydantic import ValidationError
@@ -83,7 +83,7 @@ class Engine:
             print(query)
             raise e
 
-    def test_precision(self, filename: str, top: int = 10):
+    def test_precision(self, filename: str, top: int = 10) -> float:
         queries: List[Query] = []
         with open(filename) as file:
             data = json.load(file)
@@ -115,9 +115,9 @@ class Engine:
             else:
                 global_precisions.append(0)
         precision = np.array(global_precisions).mean()
-        return precision
+        return cast(float, precision)
 
-    def test_recall(self, filename: str, top: int = 10):
+    def test_recall(self, filename: str, top: int = 10) -> float:
         queries: List[Query] = []
         with open(filename) as file:
             data = json.load(file)
@@ -147,10 +147,57 @@ class Engine:
             else:
                 global_recalls.append(0)
         recall = np.array(global_recalls).mean()
-        return recall
+        return cast(float, recall)
 
-    def test_f(self, filename: str):
-        pass
+    def test_f(
+        self,
+        filename: Optional[str] = None,
+        precision: Optional[float] = None,
+        recall: Optional[float] = None,
+        beta: float = 1,
+        top: int = 10,
+    ) -> float:
+        assert filename is not None or (precision is not None and recall is not None)
+        p: float = 0
+        r: float = 0
+        if filename:
+            p = self.test_precision(filename, top)
+            r = self.test_recall(filename, top)
+        else:
+            p = cast(float, precision)
+            r = cast(float, recall)
+        f = (1 + beta * beta) * p * r / (beta * beta * p + r)
+        return f
 
-    def test_fallout(self, filename: str):
-        pass
+    def test_fallout(self, filename: str, top: int = 10) -> float:
+        queries: List[Query] = []
+        with open(filename) as file:
+            data = json.load(file)
+            for item in data:
+                try:
+                    query = Query(**item)
+                    queries.append(query)
+                # except ValidationError as e:
+                # print(e)
+                except ValidationError:
+                    continue
+        global_fallouts = []
+        all_docs_len = len(self.documents)
+        for query in queries:
+            result = self.find(query.text, top)
+            mask = [0 if doc.id in query.docs else 1 for doc in result]
+            accu = [mask[0]]
+            for i in range(1, len(mask)):
+                accu.append(mask[i] + accu[-1])
+            local_fallouts: List[float] = []
+            docs_len = all_docs_len - len(query.docs)
+            for i in range(top):
+                # if mask[i]:
+                local_fallouts.append(accu[i] / docs_len)
+            if local_fallouts:
+                fallout = np.array(local_fallouts).mean()
+                global_fallouts.append(fallout)
+            else:
+                global_fallouts.append(0)
+        fallout = np.array(global_fallouts).mean()
+        return cast(float, fallout)

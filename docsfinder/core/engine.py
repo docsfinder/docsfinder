@@ -1,58 +1,50 @@
 import json
-from typing import Dict, List
+from typing import List
 
 import numpy as np
 from pydantic import ValidationError
 
 from .document import Document
-from .finder import Finder
 from .full_document import FullDocument
 from .indexed_document import IndexedDocument
 from .indexer import Indexer
 from .model import Model
 from .query import Query
-from .vectorizer import Vectorizer
+from .vectorizer import QueryEmptyException, Vectorizer
 
 
 class Engine:
-    def __init__(self, size: int):
-        self.size = size
+    def __init__(self):
         self.documents: List[Document] = []
-        self.indexed_documents: List[IndexedDocument] = []
-        self.doc_vectors: Dict[str, np.ndarray] = {}
         self.indexer = Indexer()
-        self.vectorizer = Vectorizer(self.size)
-        self.finder = Finder()
+        self.vectorizer = Vectorizer()
 
     def save(self):
         model = Model(
             documents=self.documents,
-            indexed_documents=self.indexed_documents,
-            doc_vectors={key: list(value) for key, value in self.doc_vectors.items()},
+            idf=self.vectorizer.idf,
+            n=self.vectorizer.n,
+            w=self.vectorizer.w,
+            terms=self.vectorizer.terms,
         )
         with open("model.json", mode="w+") as file:
             json.dump(model.dict(), file)
-        self.vectorizer.save("word2vec.model")
 
     def load(self):
         with open("model.json") as file:
             data = json.load(file)
             model = Model(**data)
             self.documents = model.documents
-            self.indexed_documents = model.indexed_documents
-            self.doc_vectors = {
-                key: np.array(value) for key, value in model.doc_vectors.items()
-            }
             self.indexer = Indexer()
-            self.finder = Finder()
-            self.vectorizer = Vectorizer(self.size)
-            self.vectorizer.load("word2vec.model")
-            self.finder.load_vectors(self.doc_vectors)
+            self.vectorizer = Vectorizer()
+            self.vectorizer.n = model.n
+            self.vectorizer.idf = model.idf
+            self.vectorizer.w = model.w
+            self.vectorizer.terms = model.terms
 
     def train(self, filename: str):
         self.documents: List[Document] = []
-        self.indexed_documents: List[IndexedDocument] = []
-        self.doc_vectors: Dict[str, np.ndarray] = {}
+        indexed_documents: List[IndexedDocument] = []
         print("Starting engine ...")
         print("Loading data ...")
         with open(filename) as file:
@@ -67,34 +59,29 @@ class Engine:
         print("Indexing documents ...")
         self.indexer = Indexer()
         for item in self.documents:
-            self.indexed_documents.append(
+            indexed_documents.append(
                 IndexedDocument(
                     **item.dict(),
                     indexes=self.indexer.get_indexes(f"{item.title} {item.content}"),
                 ),
             )
         print("Documents indexed")
-        self.vectorizer = Vectorizer(self.size)
+        self.vectorizer = Vectorizer()
         print("Training model ...")
         self.vectorizer.train(
-            [document.indexes for document in self.indexed_documents],
+            [document.indexes for document in indexed_documents],
         )
         print("Model trained")
-        print("Vectorizing documents ...")
-        for document in self.indexed_documents:
-            self.doc_vectors[document.id] = self.vectorizer.vectorize(document.indexes)
-        print("Documents vectorized")
-        self.finder = Finder()
-        self.finder.load_vectors(self.doc_vectors)
-        print("Engine stared")
 
     def find(self, query: str, count: int = 10) -> List[FullDocument]:
-        query_tokens = self.indexer.get_indexes(query, remove_stopwords=False)
-        query_vector = self.vectorizer.vectorize(list(query_tokens))
-        results = self.finder.find(query_vector)
-        dict_documents = {document.id: document for document in self.documents}
-        for result in results[:count]:
-            yield FullDocument(**dict_documents[result[0]].dict(), relevancy=result[1])
+        try:
+            query_tokens = self.indexer.get_indexes(query, remove_stopwords=False)
+            results = self.vectorizer.query(list(query_tokens))
+            for index, relevancy in results[:count]:
+                yield FullDocument(**self.documents[index].dict(), relevancy=relevancy)
+        except QueryEmptyException as e:
+            print(query)
+            raise e
 
     def test_precision(self, filename: str, top: int = 10):
         queries: List[Query] = []
@@ -109,9 +96,12 @@ class Engine:
                 except ValidationError:
                     continue
         global_precisions = []
-        for query in queries:
+        len_queries = len(queries)
+        for index, query in enumerate(queries):
+            print(f"Run query {index + 1} of {len_queries}")
             result = self.find(query.text, top)
             mask = [1 if doc.id in query.docs else 0 for doc in result]
+            print("Result finded")
             accu = [mask[0]]
             for i in range(1, len(mask)):
                 accu.append(mask[i] + accu[-1])

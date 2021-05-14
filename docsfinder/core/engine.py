@@ -74,14 +74,36 @@ class Engine:
     def find(self, query: str, count: int = 10) -> List[FullDocument]:
         query_tokens = self.indexer.get_indexes(query, remove_stopwords=False)
         results = self.vectorizer.query(list(query_tokens))
-        for index, relevancy in results[:count]:
-            yield FullDocument(**self.documents[index].dict(), relevancy=relevancy)
-        ids = set()
-        for item in self.documents:
-            if item.id in ids:
-                print(item.id, item.title)
-            else:
-                ids.add(item.id)
+        return [
+            FullDocument(
+                **self.documents[index].dict(),
+                index=index,
+                relevancy=relevancy,
+            )
+            for index, relevancy in results[:count]
+        ]
+
+    def find_with_feedback(
+        self,
+        query: str,
+        good_feedback: List[int],
+        bad_feedback: List[int],
+        count: int = 10,
+    ) -> List[FullDocument]:
+        query_tokens = self.indexer.get_indexes(query, remove_stopwords=False)
+        results = self.vectorizer.query_with_feedback(
+            list(query_tokens),
+            good_feedback,
+            bad_feedback,
+        )
+        return [
+            FullDocument(
+                **self.documents[index].dict(),
+                index=index,
+                relevancy=relevancy,
+            )
+            for index, relevancy in results[:count]
+        ]
 
     def test_precision(self, filename: str, top: int = 10) -> float:
         queries: List[Query] = []

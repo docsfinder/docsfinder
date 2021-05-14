@@ -1,69 +1,52 @@
 from math import log10
 from typing import List, Tuple
 
-# import numpy as np
-# from sklearn.metrics.pairwise import cosine_similarity
-
-
-class QueryEmptyException(Exception):
-    pass
+import numpy as np
 
 
 class Vectorizer:
     def __init__(self):
-        self.w: List[List[float]] = []
-        self.n: int = 0
-        self.idf: List[float] = []
-        self.terms: List[str] = []
+        self.idf: np.ndarray
+        self.terms: List[str]
+        self.weights: np.ndarray
 
-    def train(self, sentences: List[List[str]]) -> List[List[float]]:
-        self.terms = [
-            item for item in {term for sentence in sentences for term in sentence}
-        ]
-        freq_vect = [
-            [sentence.count(term) for term in self.terms] for sentence in sentences
-        ]
-        max_vect = [max(row) for row in freq_vect]
-        f_vect = [[cel / maxn for cel in row] for maxn, row in zip(max_vect, freq_vect)]
-        N = len(sentences)
-        self.n = len(self.terms)
-        self.idf = [
-            log10(N / len([1 for row in freq_vect if row[i] > 0]))
-            for i in range(self.n)
-        ]
-        self.w = [[cell * idf for cell, idf in zip(row, self.idf)] for row in f_vect]
-        return self.w
+    def train(self, docs: List[List[str]]):
+        terms = [item for item in {term for doc in docs for term in doc}]
+        len_docs = len(docs)
+        len_terms = len(terms)
+        freq_vect = np.zeros((len_docs, len_terms))
+        for i in range(freq_vect.shape[0]):
+            for j in range(freq_vect.shape[1]):
+                freq_vect[i, j] = docs[i].count(terms[j])
+        max_vect = np.amax(freq_vect, 1)
+        f_vect = (freq_vect.T / max_vect).T
+        idf = np.vectorize(lambda x: log10(len_docs / x))(
+            np.count_nonzero(freq_vect, 0)
+        )
+        for i in range(f_vect.shape[0]):
+            f_vect[i, :] *= idf
+        self.idf = idf
+        self.terms = terms
+        self.weights = f_vect
 
-    def query(self, sentence: List[str], a: float = 0.4) -> List[Tuple[int, float]]:
-        freq_vect = [sentence.count(term) for term in self.terms]
-        # print("Query freq_vect ready")
-        maxn = max(freq_vect)
-        # print("Query maxn ready")
-        q_vect = [
-            self.idf[i] * (a + (1 - a) * freq_vect[i] / maxn) for i in range(self.n)
-        ]
-        # print("Query q_vect ready")
-        if not sum(q_vect):
-            raise QueryEmptyException()
-        ranks = [
-            # (
-            #     i,
-            #     cosine_similarity(
-            #         np.array(row).reshape(1, -1),
-            #         np.array(q_vect).reshape(1, -1),
-            #     ).item(),
-            # )
-            (i, self.rankf(row, q_vect))
-            for i, row in enumerate(self.w)
-        ]
-        # print("Query ranks ready")
+    def query(self, document: List[str], a: float = 0.4) -> List[Tuple[int, float]]:
+        freq_vect = np.zeros_like(self.idf)
+        for i in range(freq_vect.size):
+            freq_vect[i] = document.count(self.terms[i])
+        maxn = freq_vect.max()
+        q_vect = np.zeros_like(freq_vect)
+        for i in range(q_vect.size):
+            if freq_vect[i]:
+                q_vect[i] = self.idf[i] * (a + (1 - a) * freq_vect[i] / maxn)
+            else:
+                q_vect[i] = 0
+        ranks = [(i, self.rankf(row, q_vect)) for i, row in enumerate(self.weights)]
         ranks.sort(key=lambda x: x[1], reverse=True)
         return ranks
 
-    def rankf(self, doc: List[float], qry: List[float]):
-        assert len(doc) == len(qry)
+    def rankf(self, doc: np.ndarray, qry: np.ndarray):
         return (
-            sum(wj * wq for wj, wq in zip(doc, qry))
-            / sum(wj * wj for wj in doc) ** 0.5
-            * sum(wq * wq for wq in qry) ** 0.5
+            np.multiply(doc, qry).sum()
+            / np.multiply(doc, doc).sum() ** 0.5
+            * np.multiply(qry, qry).sum() ** 0.5
         )

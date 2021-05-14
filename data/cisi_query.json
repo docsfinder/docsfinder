@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "source": "cisi",
         "text": "What problems and concerns are there in making up descriptive titles? What difficulties are involved in automatically retrieving articles from approximate titles? What is the usual relevance of the content of articles to their titles?",
         "docs": [
             "28",
@@ -53,6 +54,7 @@
     },
     {
         "id": "2",
+        "source": "cisi",
         "text": "How can actually pertinent data, as opposed to references or entire articles themselves, be retrieved automatically in response to information requests?",
         "docs": [
             "29",
@@ -85,6 +87,7 @@
     },
     {
         "id": "3",
+        "source": "cisi",
         "text": "What is information science?  Give definitions where possible.",
         "docs": [
             "60",
@@ -135,6 +138,7 @@
     },
     {
         "id": "4",
+        "source": "cisi",
         "text": "Image recognition and any other methods of automatically transforming printed text into computer-ready form.",
         "docs": [
             "310",
@@ -149,6 +153,7 @@
     },
     {
         "id": "5",
+        "source": "cisi",
         "text": "What special training will ordinary researchers and businessmen need for proper information management and unobstructed use of information retrieval systems? What problems are they likely to encounter?",
         "docs": [
             "32",
@@ -179,6 +184,7 @@
     },
     {
         "id": "6",
+        "source": "cisi",
         "text": "What possibilities are there for verbal communication between computers and humans, that is, communication via the spoken word?",
         "docs": [
             "400"
@@ -186,6 +192,7 @@
     },
     {
         "id": "7",
+        "source": "cisi",
         "text": "Describe presently working and planned systems for publishing and printing original papers by computer, and then saving the byproduct, articles coded in data-processing form, for further use in retrieval.",
         "docs": [
             "310",
@@ -200,6 +207,7 @@
     },
     {
         "id": "8",
+        "source": "cisi",
         "text": "Describe information retrieval and indexing in other languages. What bearing does it have on the science in general?",
         "docs": [
             "37",
@@ -224,6 +232,7 @@
     },
     {
         "id": "9",
+        "source": "cisi",
         "text": "What possibilities are there for automatic grammatical and contextual analysis of articles for inclusion in an information retrieval system?",
         "docs": [
             "6",
@@ -264,6 +273,7 @@
     },
     {
         "id": "10",
+        "source": "cisi",
         "text": "The use of abstract mathematics in information retrieval, e.g. group theory.",
         "docs": [
             "25",
@@ -296,6 +306,7 @@
     },
     {
         "id": "11",
+        "source": "cisi",
         "text": "What is the need for information consolidation, evaluation, and retrieval in scientific research?",
         "docs": [
             "2",
@@ -429,6 +440,7 @@
     },
     {
         "id": "12",
+        "source": "cisi",
         "text": "Give methods for high speed publication, printing, and distribution of scientific journals.",
         "docs": [
             "53",
@@ -448,6 +460,7 @@
     },
     {
         "id": "13",
+        "source": "cisi",
         "text": "What criteria have been developed for the objective evaluation of information retrieval and dissemination systems?",
         "docs": [
             "27",
@@ -545,6 +558,7 @@
     },
     {
         "id": "14",
+        "source": "cisi",
         "text": "What future is there for automatic medical diagnosis?",
         "docs": [
             "45",
@@ -554,6 +568,7 @@
     },
     {
         "id": "15",
+        "source": "cisi",
         "text": "How much do information retrieval and dissemination systems, as well as automated libraries, cost? Are they worth it to the researcher and to industry?",
         "docs": [
             "18",
@@ -642,6 +657,7 @@
     },
     {
         "id": "16",
+        "source": "cisi",
         "text": "What systems incorporate multiprogramming or remote stations in information retrieval?  What will be the extent of their use in the future?",
         "docs": [
             "123",
@@ -674,6 +690,7 @@
     },
     {
         "id": "17",
+        "source": "cisi",
         "text": "Means of obtaining large volume, high speed, customer usable information retrieval output.",
         "docs": [
             "34",
@@ -706,6 +723,7 @@
     },
     {
         "id": "18",
+        "source": "cisi",
         "text": "What methods are there for encoding, automatically matching, and automatically drawing structures extended in two dimensions, like the structural formulas for chemical compounds?",
         "docs": [
             "66",
@@ -723,6 +741,7 @@
     },
     {
         "id": "19",
+        "source": "cisi",
         "text": "Techniques of machine matching and machine searching systems. Coding and matching methods.",
         "docs": [
             "26",
@@ -810,6 +829,7 @@
     },
     {
         "id": "20",
+        "source": "cisi",
         "text": "Testing automated information systems.",
         "docs": [
             "27",
@@ -960,6 +980,7 @@
     },
     {
         "id": "21",
+        "source": "cisi",
         "text": "The need to provide personnel for the information field.",
         "docs": [
             "6",
@@ -991,6 +1012,7 @@
     },
     {
         "id": "22",
+        "source": "cisi",
         "text": "Automated information in the medical field.",
         "docs": [
             "52",
@@ -1050,6 +1072,7 @@
     },
     {
         "id": "23",
+        "source": "cisi",
         "text": "Amount of use of books in libraries. Relation to need for automated information systems .",
         "docs": [
             "2",
@@ -1104,6 +1127,7 @@
     },
     {
         "id": "24",
+        "source": "cisi",
         "text": "Educational and training requirements for personnel in the information field. Possibilities for this training.  Needs for programs providing this training.",
         "docs": [
             "6",
@@ -1162,6 +1186,7 @@
     },
     {
         "id": "25",
+        "source": "cisi",
         "text": "International systems for exchange and dissemination of information.",
         "docs": [
             "12",
@@ -1201,6 +1226,7 @@
     },
     {
         "id": "26",
+        "source": "cisi",
         "text": "Cost and determination of cost associated with systems of automated information.",
         "docs": [
             "17",
@@ -1263,6 +1289,7 @@
     },
     {
         "id": "27",
+        "source": "cisi",
         "text": "Computerized information retrieval systems.  Computerized indexing systems.",
         "docs": [
             "27",
@@ -1384,6 +1411,7 @@
     },
     {
         "id": "28",
+        "source": "cisi",
         "text": "Computerized information systems in fields related to chemistry.",
         "docs": [
             "116",
@@ -1450,6 +1478,7 @@
     },
     {
         "id": "29",
+        "source": "cisi",
         "text": "Specific advantages of computerized index systems.",
         "docs": [
             "34",
@@ -1504,6 +1533,7 @@
     },
     {
         "id": "30",
+        "source": "cisi",
         "text": "Information dissemination by journals and periodicals.",
         "docs": [
             "2",
@@ -1644,6 +1674,7 @@
     },
     {
         "id": "31",
+        "source": "cisi",
         "text": "Information systems in the physical sciences.",
         "docs": [
             "95",
@@ -1711,6 +1742,7 @@
     },
     {
         "id": "32",
+        "source": "cisi",
         "text": "Attempts at computerized and mechanized systems for general libraries. Problems and methods of automated general author and title indexing systems.",
         "docs": [
             "11",
@@ -1834,6 +1866,7 @@
     },
     {
         "id": "33",
+        "source": "cisi",
         "text": "Retrieval systems which provide for the automated transmission of information to the user from a distance.",
         "docs": [
             "122",
@@ -1860,6 +1893,7 @@
     },
     {
         "id": "34",
+        "source": "cisi",
         "text": "Methods of coding used in computerized index systems.",
         "docs": [
             "34",
@@ -1904,6 +1938,7 @@
     },
     {
         "id": "35",
+        "source": "cisi",
         "text": "Government supported agencies and projects dealing with information dissemination.",
         "docs": [
             "12",
@@ -1953,6 +1988,7 @@
     },
     {
         "id": "37",
+        "source": "cisi",
         "text": "What lists of words useful for indexing or classifying material are available?  Wanted are lists of terms that are descriptive vocabularies of particular fields or schedules of words that are related to each other in meaningful schemes.  Wanted are lists that have been tested, at least to some extent, and found useful for organizing material and for retrieving it.",
         "docs": [
             "1",
@@ -1999,6 +2035,7 @@
     },
     {
         "id": "39",
+        "source": "cisi",
         "text": "The progress of information retrieval presents problems of maladjustment and dislocation of personnel.  Training and retraining of people to use the new equipment is important at all levels.  Librarians, assistants, technicians, students, researchers, and even executives will need education to learn the purpose, values, and uses of information systems and hardware. What programs have been developed to change the attitudes and skills of traditional workers and help them to learn the newer techniques?",
         "docs": [
             "6",
@@ -2023,6 +2060,7 @@
     },
     {
         "id": "41",
+        "source": "cisi",
         "text": "Is alphabetical ordering of material considered to be a useful tool in information retrieval?  What studies have been done to compare the effectiveness of alphabetical order with other organization schemes? Is there a generally accepted form of arranging material in alphabetical order, and is there an easy way of achieving this form without going to a great amount of effort?",
         "docs": [
             "34",
@@ -2040,6 +2078,7 @@
     },
     {
         "id": "42",
+        "source": "cisi",
         "text": "The average student or researcher has difficulty in comprehending the vocabulary of information retrieval.  It appears important that this new field be understood before it is to be fully accepted.  What basic articles would provide an understanding of the various important aspects of the information storage and retrieval?",
         "docs": [
             "29",
@@ -2096,6 +2135,7 @@
     },
     {
         "id": "43",
+        "source": "cisi",
         "text": "The difficulties encountered in information retrieval systems are often less related to the equipment used than to the failure to plan adequately for document analysis, indexing, and machine coding.  The position of the programmer is to take a problem and write it in a way in which the equipment will understand.  What articles have been written describing research in maximizing the effectiveness of programming?",
         "docs": [
             "114",
@@ -2115,6 +2155,7 @@
     },
     {
         "id": "44",
+        "source": "cisi",
         "text": "There are presently fifty to one hundred technical journals being published.  On the average, two new journals appear every day.  In the many journals published, one to two million articles appear every year.  What attempts have been made to cope with this amount of scientific and technical publication in terms of analysis, control, storage, and retrieval?",
         "docs": [
             "2",
@@ -2276,6 +2317,7 @@
     },
     {
         "id": "45",
+        "source": "cisi",
         "text": "I am looking for information about the impact of automation on libraries and its significance for libraries in general.  This includes the increasing importance of automation in view of the proliferation of information today, and how automation can help libraries cope with this problem.  How will automation affect libraries and how should they react to the idea of automation?",
         "docs": [
             "4",
@@ -2359,6 +2401,7 @@
     },
     {
         "id": "46",
+        "source": "cisi",
         "text": "I am seeking information on the use of data processing in libraries and the mechanization of routine library processes and procedures.  I would like descriptions of both general and specific applications of automation in such areas as circulation, cataloging, acquisitions, serial records, and other record-keeping.  Examples should be based on the operation of a conventional public or university library, or practices in a special library which could also be applied in a public or university library.  Give descriptions of equipment and operations, both present and projected.",
         "docs": [
             "11",
@@ -2481,6 +2524,7 @@
     },
     {
         "id": "49",
+        "source": "cisi",
         "text": "Most resources have been spent on applying information retrieval techniques to the physical and medical sciences.  But, has information retrieval been used at all in the natural sciences, social sciences, and humanities?  If so, what have been some of the problems which have been encountered with these subject areas and how have they been solved, if at all?  Have the characteristics of these subject areas necessitated the development of new information retrieval techniques? What are the prospcts for future machine control in these areas?",
         "docs": [
             "37",
@@ -2521,6 +2565,7 @@
     },
     {
         "id": "50",
+        "source": "cisi",
         "text": "Is there any use for traditional classification schemes - DDC, UDC, LC, etc. - in information retrieval systems?  If there is, which scheme appears most suited to machine use and where has it been applied? If there is not, why are these classification schemes irrelevant? Has research shown that a subject classification of knowledge is completely unnecessary in machine systems? Or, have new schemes been devised which appear to be more suited to machine use?",
         "docs": [
             "1",
@@ -2616,6 +2661,7 @@
     },
     {
         "id": "52",
+        "source": "cisi",
         "text": "What are the characteristics of MEDLARS (Medical Literature Analysis and Retrieval System) project which has been undertaken by the National Library of Medicine?  How does it index current medical journals and of what relation is this indexing system to Index Medicus? What are the major components of the MEDLARS project and its major operating details?",
         "docs": [
             "38",
@@ -2637,6 +2683,7 @@
     },
     {
         "id": "54",
+        "source": "cisi",
         "text": "What is the effect on librarians of automation?  Note the new types of technology to be used in the library which will have an effect on the status, position, and function of the librarians.  What changes are being contemplated or have been initiated to introduce automation into the education of librarians?",
         "docs": [
             "6",
@@ -2694,6 +2741,7 @@
     },
     {
         "id": "55",
+        "source": "cisi",
         "text": "What are the aims and objectives of the medical literature analysis and retrieval system (MEDLARS)?  How does MEDLARS operate?  What are the possible applications of MEDLARS to future information retrieval systems?",
         "docs": [
             "65",
@@ -2718,6 +2766,7 @@
     },
     {
         "id": "56",
+        "source": "cisi",
         "text": "The standard method of finding information in today's libraries is through the use of the alphabetically arranged card catalog or the classified catalog based on a classification system such as the DC or LC.  Can these systems be modified for use with automated information retrieval?",
         "docs": [
             "1",
@@ -2769,6 +2818,7 @@
     },
     {
         "id": "57",
+        "source": "cisi",
         "text": "In catalogs which are either arranged alphabetically or arranged by classification number, the LC entry, printed in readable language, is ultimately important because the individual looking for information has a definite author, title, or subject phrase in his language (probably English in our case) in mind.  Will LC entries and subject headings be used in the same manner in automated systems?",
         "docs": [
             "16",
@@ -2793,10 +2843,8 @@
     },
     {
         "id": "58",
-        "title": "Directions in Library Networking",
-        "author": "Avram, H.D. McCallum, S.H.",
+        "source": "cisi",
         "text": "Bibliographic control before and after MARC is reviewed.  The capability of keying into online systems brought an interdependence among libraries, the service centers that mediate between them, and the large utilities that process and distribute data.  From this has developed the basic network structure among libraries in the United States.  The independent development of major networks has brought problems in standardization and coordination. The authors point out that while technology has led toward centralization of automated library services, new developments are now pushing toward decentralization.  Coordination is a requirement to avoid fragmentation in this new environment.",
-        "bibliography": "(JASIS, Vol. 31, No. 6, November 1980, pp. 438-444)",
         "docs": [
             "10",
             "11",
@@ -2848,10 +2896,8 @@
     },
     {
         "id": "61",
-        "title": "Searching Biases in Large Interactive Document Retrieval Systems",
-        "author": "Blair, D.C.",
+        "source": "cisi",
         "text": "The way that individuals construct and modify search queries on a large interactive document retrieval system is subject to systematic biases similar to those that have been demonstrated in experiments on judgements under uncertainty.  These biases are shared by both naive and sophisticated subjects and cause the inquirer searching for documents on a large interactive system to construct and modify queries inefficiently.  A searching algorithm is suggested that helps the inquirer to avoid the effect of these biases.",
-        "bibliography": "(JASIS, Vol. 31, No. 4, July 1980, pp. 271-277)",
         "docs": [
             "29",
             "42",
@@ -2868,10 +2914,8 @@
     },
     {
         "id": "62",
-        "title": "Fuzzy Requests:  An Approach to Weighted Boolean Searches",
-        "author": "Bookstein, A.",
+        "source": "cisi",
         "text": "This article concerns the problem of how to permit a patron to represent the relative importance of various index terms in a Boolean request while retaining the desirable properties of a Boolean system. The character of classical Boolean systems is reviewed and related to the notion of fuzzy sets.  The fuzzy set concept then forms the basis of the concept of a fuzzy request in which weights are assigned to index terms. Ther properties of such a system are discussed, and it is shown that such systems retain the manipulability of traditional Boolean requests.",
-        "bibliography": "(JASIS, Vol. 31, No. 4, July 1980, pp. 240-247)",
         "docs": [
             "54",
             "81",
@@ -2889,10 +2933,8 @@
     },
     {
         "id": "65",
-        "title": "A Model of Cluster Searching Based on Classification",
-        "author": "Croft, W.B.",
+        "source": "cisi",
         "text": "The use of document clusters has been suggested as an efficient file organization for a document retrieval system.  It is possible that by using this information about the relationships between documents that the effectiveness of the system (i.e., its ability to distinguish relevant from non-relevant documents) may also be improved.  In this paper a probabilistic model of cluster searching  based on query classification is described.  This model is tested with retrieval experiments which indicate that it can be more effective than heuristic cluster searches and cluster searches based on other models.  It can also be more effective than a full search in which every document is compared to the query.  The efficiency aspects of the implementation of the model are discussed.",
-        "bibliography": "(Inform. Systems, Vol. 5, No. 3, 1980, pp. 189-195)",
         "docs": [
             "45",
             "328",
@@ -2911,10 +2953,8 @@
     },
     {
         "id": "66",
-        "title": "The Technology of Library and Information Networks",
-        "author": "Epstein, H.",
+        "source": "cisi",
         "text": "Current online library network technology is described, including the physical and functional aspects of networks.  Three types of networks are distinguished:  search service (e.g., SDC, Lockheed), customized service that provide bibliographic files (e.g., OCLC, Inc., RLIN), and service center (e.g., NELINET, INCOLSA).  It is predicted that as technology evolves more services will be provided outside the library directly to the user through his home or office.",
-        "bibliography": "(JASIS, Vol. 31, No. 6, November 1980, pp. 425-437)",
         "docs": [
             "10",
             "24",
@@ -2955,10 +2995,8 @@
     },
     {
         "id": "67",
-        "title": "The Use of Titles for Automatic Document Classification",
-        "author": "Hamill, K.A. Zamora, A.",
+        "source": "cisi",
         "text": "An experimental computer program has been developed to classify documents according to the 80 sections and five major section groupings of Chemical Abstracts (CA).  The program uses pattern recognition techniques supplemented by heuristics.  During the \"training\" phase, words from pre-classified documents are selected, and the probability of occurrence of each word in each section of CA is computed and stored in a reference dictionary.  The \"classification\" phase matches each word of a document title against the dictionary and assigns a section number to the document using weights derived from the probabilities in the dictionary.  Heuristic techniques are used to normalize word variants such as plurals, past tenses, and gerunds in both the training phase and the classification phase.  The dictionary lookup technique is supplemented by the analysis of chemical nomenclature terms into their component word roots to influence the section to which the documents are assigned.  Program performance and human consistency have been evaluated by comparing the program results against the published sections of CA and by conducting an experiment with people experienced in the assignment of documents to CA sections.  The program assigned approximately 78% of the documents to the correct major section groupings of CA and 67% of the correct sections or cross-references at a rate of 100 documents per second.",
-        "bibliography": "(JASIS, Vol. 31, No. 6, November 1980, pp. 396-402)",
         "docs": [
             "35",
             "38",
@@ -2996,10 +3034,8 @@
     },
     {
         "id": "69",
-        "title": "The Application of a Minicomputer to Thesaurus Construction",
-        "author": "Kazlauskas, E.J. Holt, T.D.",
+        "source": "cisi",
         "text": "The Use of a minicomputer in various phases of creating the thesaurus for the National Information Center for Special Education Materials (NICSEM) database is described.  The minicomputer is used to collect, edit, and correct candidate thesaurus terms.  The use of the minicomputer eases the process of grouping terms into files of similar concepts and facilitates the generation of products useful in vocabulary review and in term structuring.  Syndetic relations, indicated by assigning coded identification numbers, are altered easily in the design phase to reflect restructuring requirements.  Because thesaurus terms are already in machine- readable form, it is simple to prepare print programs to provide permuted, alphabetic, hierarchical, and chart formatted term displays.  Overall, the use of the minicomputer facilitates initial thesaurus entry development by reducing clerical effort, editorial staff decisions, and overall processing times.",
-        "bibliography": "(JASIS, Vol. 31, No. 5, September 1980, pp. 363-368)",
         "docs": [
             "30",
             "69",
@@ -3020,10 +3056,8 @@
     },
     {
         "id": "71",
-        "title": "An Automatic Method for Extracting Significant Phrases in Scienfific or Technical Documents",
-        "author": "Maeda, T. Momouchi, J. Sawamura, H.",
+        "source": "cisi",
         "text": "A new method is described to extract significant phrases in the title and the abstreact of scientific or technical documents.  The method is based upon a text structure analysis and uses a relatively small dictionary. The dictionary has been constructed based on the knowledge about concepts in the field of science or technology and some lexical knowledge.  For significant phrases and their component items may be used in different meanings among the fields.  A text analysius approach has been applied to select significant phrases as substantial and semantic information carriers of the contents of the abstract. The results of the experiment for five sets of documents have shown that the significant phrases are effectively extracted in all cases, and the number of them for every document and the processing time is fairly satisfactory.  The information representation of the document, partly using the method, is discussed with relation to the construction of the document information retrieval system.",
-        "bibliography": "(Info. Proc. & Management, Vol. 16, No. 3, 1980, pp.119-127)",
         "docs": [
             "19",
             "30",
@@ -3056,10 +3090,8 @@
     },
     {
         "id": "76",
-        "title": "Library Networks and Resource Sharing in the United States: An Historical and Philosophical Overview",
-        "author": "Stevens, N.D.",
+        "source": "cisi",
         "text": "This paper discusses the origins of library networks and traces their development in the United States in the late 1960s through the present. The concept of resource sharing, with particular attention to the inter- library loan and programs for the cooperative acquisition and storage of materials, is examined in relationship to library networks.  In particular, attention is given to the question of how these two major components of library cooperation, which have tended to be separate, might become more closely integrated.",
-        "bibliography": "(JASIS, Vol. 31, No. 6, November 1980, pp. 405-412)",
         "docs": [
             "10",
             "11",
@@ -3125,10 +3157,8 @@
     },
     {
         "id": "79",
-        "title": "Algorithms for Processing Partial Match Queries Using Word Fragments",
-        "author": "Alagar, V.S.",
+        "source": "cisi",
         "text": "Algorithms are given to process partially specified queries in a compressed database system.  The proposed methods handle effectively queries that use either whole words or word fragments as language elements. The methods are compared and critically evaluated in terms of the design and retrieval costs.  The analyses show that the method which exploits the interdependence of fragments as well as the relevance of fragments to records in the file has maximum design cost and least retrieval cost.",
-        "bibliography": "(Inform. Systems, Vol. 5, No. 4, April 1980, pp. 323-332)",
         "docs": [
             "62",
             "150",
@@ -3145,10 +3175,8 @@
     },
     {
         "id": "81",
-        "title": "Lexical Problems in Large Distributed Information Systems",
-        "author": "Berkovich, S.Y. Shneiderman, B.",
+        "source": "cisi",
         "text": "The lexical problems in large information systems are created by the necessity of handling a great number of names and their interrelations. Such lexical problems are not covered completely by the concept data dictionaries, which are mostly concerned with database scheme design rather than the execution of operations.  In this paper we introduce our view of a lexical subsystem as a separate component in an information system architecture, to deal with linguistic and control functions concerning the lexical problems in local and network environments.  The lexical suybsystem is a special efficiently organized program package, which plays the role of a \"linguistic filter\" in a broad sense for lexically incorrect queries, promotes integration of databases and information retrieval systems, and facilitates the creation of local information systems.  We hope that lexical subsystems can become productive for any large, especially distributed, information system.",
-        "bibliography": "(Information Processing & Management, Vol. 16, February 1980, pp. 259-267)",
         "docs": [
             "38",
             "68",
@@ -3165,10 +3193,8 @@
     },
     {
         "id": "82",
-        "title": "The Relational Model in Information Retrieval",
-        "author": "Crawford, R.G.",
+        "source": "cisi",
         "text": "The relational model has received increasing attention during the past decade.  Its advantages include simplicity, consistency, and a sound theoretical basis.  In this article, the naturalness of viewing information retrieval relationally is demonstrated.  The relational model is presented, and the relational organization of a bibliographical database is shown. The notion of normalization is introduced and first, second, third, and fourth normal forms are demonstrated.  Relational languages are discussed, including the relational calculus, relational algebra, and SEQUEL. Numerous examples pertinent to information retrieval are presented in these relational languages.  Advantages of the relational approach to information retrieval are noted.",
-        "bibliography": "(JASIS, Vol. 32, No. 1, January 1981, pp. 51-64)",
         "docs": [
             "478",
             "519",
@@ -3184,10 +3210,8 @@
     },
     {
         "id": "84",
-        "title": "The Use of Automatic Relevance Feedback in Boolean Retrieval Systems",
-        "author": "Dillon, M. Desper, J.",
+        "source": "cisi",
         "text": "A technique is described for automatic reformulation of boolean queries.  Based on patron relevance judgements of an initial retrieval, prevalence measures are derived for terms appearing in the retrieved set of documents that reflect a term's distribution among the relevant and non-relevant documents.  These measures are then used to guide the construction of a boolean query for a subsequent retrieval.  To illustrate the technique, a series of tests is described of its application to a small data base in an experimental environment.  Results compare favourably with feedback as employed in a SMART-type system.  MOre extensive testing is suggested to validate the technique.",
-        "bibliography": "(Journal of Documentation, Vol. 36, No. 3, September 1980, pp. 197-208)",
         "docs": [
             "28",
             "49",
@@ -3204,10 +3228,8 @@
     },
     {
         "id": "90",
-        "title": "Co-Citation Context Analysis and the Structure of Paradigms",
-        "author": "Small, H.",
+        "source": "cisi",
         "text": "Many information scientists are concerned with the operation of document retrieval systems serving scientists in various fields.  The scientists served by these systems are often members of what have been called invisible colleges, groups of scientists in frequent communication with one another and involved with highly specialized subject matters.  Often such groups are considered to share an intellectual perspective regarding this subject matter, which is sometimes referred to as a paradigm. The purpose of this paper is to show how it is possible to identify paradigms, using the techniques of citation analysis.  I will operationalize the notion of paradigm as a 'consensual structure of concepts in a field.' Suppose we have obtained a set of papers pertaining to some topic.  Already knowing something about the field, we read each text and mark passages in which certain specific concepts are used or discussed.  For example, we might find that a concept designated 'A' appears in some sub-set of the papers.  Suppose further that we identify those papers in which concepts 'A' and 'B' are used together in the same papers in a certain specified manner. Clearly not all concepts will combine in a natural way, and not all authors combining concepts 'A' and 'B' will do so in the same way, though some predominant mode may emerge.  For a set of n concepts their structure is given by the totality of admissible combinations of concepts taken from two to n at a time.  The frequency with which a given combination occurs in the sample of papers on the topic is a measure of the degree of consensus regarding the particular concept combination within the corpus.  For concepts taken two at a time, the structure can be displayed as a graph with concepts as nodes and the relations between them represented as lines (arcs) connecting the nodes.  This definition of concept structure is similar to the semantic network of artificial intelligence except that in our approach a measure of consensus weights each arc of the graph.",
-        "bibliography": "(Journal of Documentation, Vol. 36, No. 3, September 1980, pp. 183-196)",
         "docs": [
             "3",
             "39",
@@ -3283,10 +3305,8 @@
     },
     {
         "id": "92",
-        "title": "Database and Online Statistics for 1979",
-        "author": "Williams M.E.",
+        "source": "cisi",
         "text": "The number of databases, records contained in databases and the online use of databases has increased dramatically over the past several years, bringing the 1979 totals for bibliographic, bioliographic-related, and natural language databases to 528.  These 528 databases contain 148 million records.  Some 4 million online searches were conducted via the major U.S. and Canadian systems in 1979.",
-        "bibliography": "(Bulletin of ASIS, Vol. 7, No. 2, December 1980, pp. 27-29)",
         "docs": [
             "37",
             "40",
@@ -3330,10 +3350,8 @@
     },
     {
         "id": "95",
-        "title": "A Comparison of Two Systems of Weighted Boolean Retrieval",
-        "author": "Bookstein, A.",
+        "source": "cisi",
         "text": "A major deficiency of traditional Boolean systems is their inability to represent the varying degrees to which a document may be written on a subject. In this article we isolate a number of criteria that should be met by any Boolean system generalized to have a weighting capability.  It is proven that only one weighting rule satisfies these conditions--that associated with fuzzy- set theory--and that this weighting scheme satisfies most of the other properties associated with Boolean algebra as well.  Probabilistic weighting is then introduced as an alternative approach and the two systems compared. In the limit of zero/one weights, all systems considered converge to traditional Boolean retrieval.",
-        "bibliography": "(JASIS, Vol. 32, No. 4, July 1981)",
         "docs": [
             "54",
             "319",
@@ -3350,10 +3368,8 @@
     },
     {
         "id": "96",
-        "title": "Threshold Values and Boolean Retrieval Systems",
-        "author": "Buell, D.A. Kraft, D.H.",
+        "source": "cisi",
         "text": "Several papers have appeared that have analyzed recent developments in the problem of processing, in a document retrieval system, queries expressed as Boolean expressions.  The purpose of this paper is to continue that analysis. We shall show that the concept of threshold values resolves the problems inherent with relevance weights.  Moreover, we shall explore possible evaluation mechanisms for retrieval of documents, based on fuzzy-set-theoretic considerations.",
-        "bibliography": "(Information Processing & Management, Vol. 17, No. 3, 1981, pp. 127-136)",
         "docs": [
             "319",
             "430",
@@ -3368,10 +3384,8 @@
     },
     {
         "id": "97",
-        "title": "A Model for a Weighted Retrieval System",
-        "author": "Buell, D.A. Kraft, D.H.",
+        "source": "cisi",
         "text": "There has been a good deal of work on information retrieval systems that have continuous weights assigned to the index terms that describe the records in the database, and/or to the query terms that describe the user queries. Recent articles have analyzed retrieval systems with continuous weights of either type and/or with a Boolean structure for the queries.  They have also suggested criteria which such systems ought to satisfy and record evaluation mechanisms which partially satisfy these criteria.  We offer a more careful analysis, based on a generalization of the discrete weights.  We also look at the weights from an entirely different approach involving thresholds, and we generate an improved evaluation mechanism which seems to fulfill a larger subset of the desired criteria than previous mechanisms.  This new mechanism allows the user to attach a \"threshold\" to the query term.",
-        "bibliography": "(JASIS, Vol. 32, No. 3, May 1981, pp. 211-216)",
         "docs": [
             "54",
             "531",
@@ -3383,10 +3397,8 @@
     },
     {
         "id": "98",
-        "title": "A Translating Computer Interface for End-User Operation of Heterogeneous Retrieval Systems.  I. Design",
-        "author": "Marcus, R.S. Reintjes, J.F.",
+        "source": "cisi",
         "text": "Online retrieval systems may be difficult to use, especially by end users, because of heterogeneity and complexity.  Investigations have concerned the concept of a translating computer interface as a means to simplify access to, and operation of, heterogeneous bibliographic retrieval systems and databases.  The interface allows users to make requests in a common language. These requests are translated by the interface into the appropriate commands for whatever system is being interrogated.  System responses may also be transformed by the interface into a common form before being given to the users.  Thus, the network of different systems is made to look like a single \"virtual\" system to the user.  The interface also provides instruction and other search aids for the user.  The philosophy, design, and implementation of an experimental interface named CONIT are described.",
-        "bibliography": "(JASIS, Vol. 32, No. 4, July 1981, pp. 287-303)",
         "docs": [
             "90",
             "124",
@@ -3421,10 +3433,8 @@
     },
     {
         "id": "99",
-        "title": "A Translating Computer Interface for End-User Operation of Heterogeneous Retrieval Systems.  II. Evaluations",
-        "author": "Marcus, R.S. Reintjes, J.F.",
+        "source": "cisi",
         "text": "The evaluation of the concept of a translating compuyter interface for simplifying operation of multiple, heterogenous online bibliographic retrieval systems has been undertaken.  An experimental retrieval system, named CONIT, was built and tested under controlled conditions with inexperienced end users.  A detailed analysis of the experimental usages showed that users were able to master interface operation sufficiently well to find relevant document references.  Success was attributed, in part, to a simple command language, adequate online instruction, and a simplified natural-language, keyword/stem approach to searching.  It is concluded that operational interfaces of the type studied can provide for increased usability of existing system in a cost effective manner, especially for searchers. Furthermore, more advanced interfaces based on improved instruction and automated search strategy techniques could further enhance retrieval effectiveness for a wide class of users.",
-        "bibliography": "(JASIS, Vol. 32, No. 4, July 1981, pp. 304-317)",
         "docs": [
             "27",
             "65",
@@ -3464,10 +3474,8 @@
     },
     {
         "id": "100",
-        "title": "The Interface Between Computerized Retrieval Systems and Micrographic Retrieval Systems",
-        "author": "McMurdo, G.",
+        "source": "cisi",
         "text": "This paper notes the benefits accruing from interaction between computerized retrieval systems and micrographic retrieval systems.  It reviews current state of automated micrographic retrieval technology.  The conclusion is that with a combination of advances in communications technology, and sophisticated indexing input from libraries and information scientists, the new generation of automated micrographs devices may constitute the on-line document retrieval systems of the future.",
-        "bibliography": "(Journal of Information Science I, 1980, pp. 345-349)",
         "docs": [
             "13",
             "24",
@@ -3491,20 +3499,16 @@
     },
     {
         "id": "101",
-        "title": "Parallel Computations in Information Retrieval",
-        "author": "Salton, G. Bergmark, D.",
+        "source": "cisi",
         "text": "Conventional information retrieval processes are largely based on data movement, pointer manipulations and integer arithmetic; more refined retrieval algorithms may in addition benefit from substantial computational power. In the present study a number of parallel processing methods are described that serve to enhance retrieval services.  In conventional retrieval environments parallel list processing and parallel search facilities are of greatest interest.  In more advanced systems, the use of array processors also proves beneficial.  Various information retrieval processes are examined and evidence is given to demonstrate the usefulness of parallel processing and fast computational facilities in information retrieval.",
-        "bibliography": "(In Lecture Notes in Computer Science, No. III, W. Handler, Ed., Springer Verlag, Berlin-New York, 1981, pp. 328-342)",
         "docs": [
             "1204"
         ]
     },
     {
         "id": "102",
-        "title": "The Measurement of Term Importance in Automatic Indexing",
-        "author": "Salton, G. Wu, H. Yu, C.T.",
+        "source": "cisi",
         "text": "The frequency characteristics of terms in the documents of a collection have been used as indicators of term importance for content analysis and indexing purposes.  In particular, very rare or very frequent terms are normally believed to be less effective than medium-frequency terms.  Recently automatic indexing theories have been devised that use not only the term frequency characteristics but also the relevance properties of the terms. The major term-weighting theories are first briefly reviewed.  The term precision and term utility weights that are based on the occurrence characteristics of the terms in the relevant, as opposed to the nonrelevant, documents of a collection are then introduced.  Methods are suggested for estimating the relevance properties of the terms based on their overall occurrence characteristics in the collection.  Finally, experimental evaluation results are shown comparing the weighting systems using the term relevance properties with the more conventional frequency-based methodologies.",
-        "bibliography": "(JASIS, Vol. 32, No. 3, May 1981, pp. 175-186)",
         "docs": [
             "19",
             "44",
@@ -3534,10 +3538,8 @@
     },
     {
         "id": "104",
-        "title": "The Selection of Good Search Terms",
-        "author": "van Rijsbergen, C.J. Harper, D.J. Porter, M.F.",
+        "source": "cisi",
         "text": "This paper tackles the problem of how one might select further search terms, using relevance feedback, given the search terms in the query.  These search terms are extracted from a maximum spanning tree connecting all the terms in the index term vocabulary.  A number of different spanning trees are generated from a variety of association measures.  The retrieval effectiveness for the different spanning trees is shown to be approximately the same.  Effectiveness is measured in terms of precision and recall, and the retrieval tests are done on three different test collections.",
-        "bibliography": "(Information Processing & Management, Vol. 17, No. 2, 1981, pp. 77-91)",
         "docs": [
             "19",
             "26",
@@ -3554,10 +3556,8 @@
     },
     {
         "id": "109",
-        "title": "Author Cocitation:  A Literature Measure of Intellectual Structure",
-        "author": "White, H.D. Griffith, B.C.",
+        "source": "cisi",
         "text": "It is shown that the mapping of a particular area of science, in this case information science, can be done using authors as units of analysis and the cocitations of pairs of authors as the variable that indicates their \"distances\" from each other.  The analysis assumes that the more two authors are cited together, the closer the relationship between them.  The raw data are cocitation counts drawn online from Social Scisearch (Social Sciences Citation Index) over the period 1972-1979.  GThe resulting map shows (1) identifiable author groups (akin to \"schools\") of information science, (2) locations of these groups with respect to each other, (3) the degree of centrality and peripherality of authors within groups, (4) proximities of authors within group and across group boundaries (\"border authors\" who seem to connect various areas of research), and (5) positions of authors with respect to the map's axes, which were arbitrarily set spanning the most divergent groups in order to aid interpretation.  Cocitation analysis of authors offers a new technique that might contribute to the understanding of intellectual structure in the sciences and possibly in other areas to the extent that those areas rely on serial publications.  The technique establishes authors, as well as documents, as an effective unit in analyzing subject specialties.",
-        "bibliography": "(JASIS, Vol. 32, No. 3, May 1981, pp. 163-171)",
         "docs": [
             "3",
             "39",
@@ -3634,10 +3634,8 @@
     },
     {
         "id": "111",
-        "title": "Document Clustering Using an Inverted File Approach",
-        "author": "Willett, P.",
+        "source": "cisi",
         "text": "An automated document clustering procedure is described which does not require the use of an inter-document similarity matrix and which is independent of the order in which the documents are processed.  The procedure makes use of an initial set of clusters which is derived from certain of the terms in the indexing vocabulary used to characterise the documents in the file.  The retrieval effectiveness obtained using the clustered file is compared with that obtained from serial searching and from use of the single-linkage clustering method.",
-        "bibliography": "(Journal of Information Science, 2, 1980, pp. 222-231)",
         "docs": [
             "328",
             "422",

@@ -1,249 +1,1160 @@
 [
     {
+        "id": "1",
+        "source": "cran",
+        "text": "what similarity laws must be obeyed when constructing aeroelastic models of heated high speed aircraft .",
+        "docs": [
+            "12",
+            "13",
+            "14",
+            "15",
+            "29",
+            "30",
+            "31",
+            "37",
+            "51",
+            "52",
+            "56",
+            "57",
+            "66",
+            "95",
+            "102",
+            "142",
+            "184",
+            "185",
+            "195",
+            "378",
+            "462",
+            "486",
+            "497",
+            "858",
+            "859",
+            "875",
+            "876",
+            "879",
+            "880"
+        ]
+    },
+    {
+        "id": "2",
+        "source": "cran",
+        "text": "what are the structural and aeroelastic problems associated with flight of high speed aircraft .",
+        "docs": [
+            "12",
+            "14",
+            "15",
+            "51",
+            "52",
+            "102",
+            "184",
+            "202",
+            "285",
+            "380",
+            "390",
+            "391",
+            "442",
+            "486",
+            "497",
+            "643",
+            "658",
+            "746",
+            "856",
+            "857",
+            "858",
+            "859",
+            "864",
+            "877",
+            "948"
+        ]
+    },
+    {
+        "id": "4",
+        "source": "cran",
+        "text": "what problems of heat conduction in composite slabs have been solved so far .",
+        "docs": [
+            "166",
+            "236",
+            "488"
+        ]
+    },
+    {
+        "id": "8",
+        "source": "cran",
+        "text": "can a criterion be developed to show empirically the validity of flow solutions for chemically reacting gas mixtures based on the simplifying assumption of instantaneous local chemical equilibrium .",
+        "docs": [
+            "20",
+            "48",
+            "58",
+            "122",
+            "196",
+            "197",
+            "354",
+            "360",
+            "492",
+            "999",
+            "1005",
+            "1112"
+        ]
+    },
+    {
+        "id": "9",
+        "source": "cran",
+        "text": "what chemical kinetic system is applicable to hypersonic aerodynamic problems .",
+        "docs": [
+            "21",
+            "22",
+            "534",
+            "550"
+        ]
+    },
+    {
+        "id": "10",
+        "source": "cran",
+        "text": "what theoretical and experimental guides do we have as to turbulent couette flow behaviour .",
+        "docs": [
+            "259",
+            "302",
+            "405",
+            "436",
+            "437",
+            "438",
+            "493",
+            "998",
+            "1011"
+        ]
+    },
+    {
+        "id": "12",
+        "source": "cran",
+        "text": "is it possible to relate the available pressure distributions for an ogive forebody at zero angle of attack to the lower surface pressures of an equivalent ogive forebody at angle of attack .",
+        "docs": [
+            "86",
+            "194",
+            "624",
+            "649",
+            "650",
+            "652"
+        ]
+    },
+    {
+        "id": "13",
+        "source": "cran",
+        "text": "what methods -dash exact or approximate -dash are presently available for predicting body pressures at angle of attack.",
+        "docs": [
+            "64",
+            "65",
+            "265",
+            "311",
+            "496"
+        ]
+    },
+    {
+        "id": "15",
+        "source": "cran",
+        "text": "papers on internal /slip flow/ heat transfer studies .",
+        "docs": [
+            "462",
+            "463",
+            "497"
+        ]
+    },
+    {
+        "id": "18",
+        "source": "cran",
+        "text": "are real-gas transport properties for air available over a wide range of enthalpies and densities .",
+        "docs": [
+            "196",
+            "197",
+            "198",
+            "498"
+        ]
+    },
+    {
+        "id": "22",
+        "source": "cran",
+        "text": "is it possible to find an analytical,  similar solution of the strong blast wave problem in the newtonian approximation .",
+        "docs": [
+            "68",
+            "502"
+        ]
+    },
+    {
+        "id": "23",
+        "source": "cran",
+        "text": "how can the aerodynamic performance of channel flow ground effect machines be calculated .",
+        "docs": [
+            "199",
+            "200",
+            "201",
+            "544",
+            "593",
+            "594",
+            "597",
+            "601",
+            "634",
+            "687",
+            "698",
+            "700",
+            "704",
+            "705",
+            "749",
+            "892",
+            "899",
+            "900",
+            "901",
+            "902",
+            "903",
+            "917",
+            "919",
+            "1109",
+            "1112",
+            "1141",
+            "1197",
+            "1256",
+            "1259",
+            "1272",
+            "1289",
+            "1290",
+            "1333"
+        ]
+    },
+    {
+        "id": "26",
+        "source": "cran",
+        "text": "what is the basic mechanism of the transonic aileron buzz .",
+        "docs": [
+            "145",
+            "376",
+            "406",
+            "511",
+            "565",
+            "611",
+            "1076"
+        ]
+    },
+    {
+        "id": "27",
+        "source": "cran",
+        "text": "papers on shock-sound wave interaction .",
+        "docs": [
+            "224",
+            "278",
+            "428",
+            "512"
+        ]
+    },
+    {
+        "id": "29",
+        "source": "cran",
+        "text": "material properties of photoelastic materials .",
+        "docs": [
+            "225",
+            "250",
+            "464",
+            "465",
+            "466",
+            "513",
+            "514",
+            "609",
+            "612",
+            "793"
+        ]
+    },
+    {
+        "id": "31",
+        "source": "cran",
+        "text": "can the transverse potential flow about a body of revolution be calculated efficiently by an electronic computer .",
+        "docs": [
+            "751",
+            "776"
+        ]
+    },
+    {
+        "id": "32",
+        "source": "cran",
+        "text": "can the three-dimensional problem of a transverse potential flow about a body of revolution be reduced to a two-dimensional problem .",
+        "docs": [
+            "247",
+            "249",
+            "250",
+            "465",
+            "752",
+            "777",
+            "778"
+        ]
+    },
+    {
+        "id": "33",
+        "source": "cran",
+        "text": "are experimental pressure distributions on bodies of revolution at angle of attack available .",
+        "docs": [
+            "141",
+            "252",
+            "431",
+            "516"
+        ]
+    },
+    {
+        "id": "34",
+        "source": "cran",
+        "text": "does there exist a good basic treatment of the dynamics of re-entry combining consideration of realistic effects with relative simplicity of results .",
+        "docs": [
+            "252",
+            "431",
+            "516",
+            "672",
+            "714",
+            "799",
+            "800"
+        ]
+    },
+    {
+        "id": "35",
+        "source": "cran",
+        "text": "has anyone formally determined the influence of joule heating,  produced by the induced current,  in magnetohydrodynamic free convection flows under general conditions .",
+        "docs": [
+            "132",
+            "166",
+            "167",
+            "517"
+        ]
+    },
+    {
+        "id": "39",
+        "source": "cran",
+        "text": "why does the compressibility transformation fail to correlate the high speed data for helium and air .",
+        "docs": [
+            "24",
+            "79",
+            "207",
+            "272",
+            "283",
+            "418",
+            "505",
+            "536",
+            "552",
+            "554",
+            "555",
+            "556",
+            "557",
+            "1257"
+        ]
+    },
+    {
+        "id": "40",
+        "source": "cran",
+        "text": "did anyone else discover that the turbulent skin friction is not over sensitive to the nature of the variation of the viscosity with temperature .",
+        "docs": [
+            "24",
+            "85",
+            "272",
+            "283",
+            "536",
+            "552",
+            "553",
+            "554",
+            "555",
+            "556",
+            "557",
+            "558",
+            "976"
+        ]
+    },
+    {
+        "id": "41",
+        "source": "cran",
+        "text": "what progress has been made in research on unsteady aerodynamics .",
+        "docs": [
+            "288",
+            "289",
+            "433",
+            "520"
+        ]
+    },
+    {
+        "id": "49",
+        "source": "cran",
+        "text": "what are the factors which influence the time required to invert large structural matrices .",
+        "docs": [
+            "320",
+            "478",
+            "527"
+        ]
+    },
+    {
+        "id": "50",
+        "source": "cran",
+        "text": "does a practical flow follow the theoretical concepts for the interaction between adjacent blade rows of a supersonic cascade .",
+        "docs": [
+            "21",
+            "22",
+            "94",
+            "306",
+            "326",
+            "528",
+            "629"
+        ]
+    },
+    {
+        "id": "51",
+        "source": "cran",
+        "text": "what is a single approximate formula for the displacement thickness of a laminar boundary layer in compressible flow on a flat plate .",
+        "docs": [
+            "23",
+            "63",
+            "94",
+            "105",
+            "192",
+            "261",
+            "326",
+            "381",
+            "494",
+            "528",
+            "629"
+        ]
+    },
+    {
+        "id": "52",
+        "source": "cran",
+        "text": "how is the design of ring or part ring wings by linear theory affected by thickness .",
+        "docs": [
+            "21",
+            "22",
+            "306",
+            "326",
+            "528"
+        ]
+    },
+    {
+        "id": "53",
+        "source": "cran",
+        "text": "what application has the linear theory design of curved wings .",
+        "docs": [
+            "33",
+            "208",
+            "296",
+            "297",
+            "298",
+            "299",
+            "446",
+            "447",
+            "448",
+            "449",
+            "531"
+        ]
+    },
+    {
+        "id": "54",
+        "source": "cran",
+        "text": "what is the effect of cross sectional shape on the flow over simple delta wings with sharp leading edges .",
+        "docs": [
+            "24",
+            "84",
+            "101",
+            "123",
+            "294",
+            "364",
+            "365",
+            "560",
+            "628",
+            "661"
+        ]
+    },
+    {
+        "id": "55",
+        "source": "cran",
+        "text": "papers on flow visualization on slender conical wings .",
+        "docs": [
+            "16",
+            "255",
+            "271",
+            "375",
+            "376",
+            "377",
+            "378",
+            "460",
+            "502",
+            "538",
+            "562"
+        ]
+    },
+    {
+        "id": "56",
+        "source": "cran",
+        "text": "what size of end plate can be safely used to simulate two-dimensional flow conditions over a bluff cylindrical body of finite aspect ratio .",
+        "docs": [
+            "14",
+            "379",
+            "380",
+            "643",
+            "686",
+            "705",
+            "749",
+            "753",
+            "779",
+            "780",
+            "1339"
+        ]
+    },
+    {
+        "id": "57",
+        "source": "cran",
+        "text": "to find an approximate correction for thickness in slender thin-wing theory .",
+        "docs": [
+            "12",
+            "14",
+            "15",
+            "379",
+            "380",
+            "593",
+            "704",
+            "705",
+            "746",
+            "753",
+            "779",
+            "780",
+            "857",
+            "859",
+            "914"
+        ]
+    },
+    {
+        "id": "58",
+        "source": "cran",
+        "text": "how do interference-free longitudinal stability measurements (made using free-flight models) compare with similar measurements made in a low-blockage wind tunnel .",
+        "docs": [
+            "23",
+            "381",
+            "382",
+            "754",
+            "784",
+            "785",
+            "786",
+            "787",
+            "788",
+            "789"
+        ]
+    },
+    {
+        "id": "59",
+        "source": "cran",
+        "text": "have wind tunnel interference effects been investigated on a systematic basis .",
+        "docs": [
+            "754",
+            "785",
+            "786",
+            "787",
+            "788"
+        ]
+    },
+    {
+        "id": "61",
+        "source": "cran",
+        "text": "are there any papers dealing with acoustic wave propagation in reacting gases .",
+        "docs": [
+            "539",
+            "564",
+            "565",
+            "566",
+            "661",
+            "1159"
+        ]
+    },
+    {
+        "id": "62",
+        "source": "cran",
+        "text": "has anyone investigated relaxation effects on gaseous heat transfer to a suddenly heated wall .",
+        "docs": [
+            "539",
+            "566",
+            "567",
+            "1078",
+            "1081",
+            "1084"
+        ]
+    },
+    {
+        "id": "66",
+        "source": "cran",
+        "text": "are there any theoretical methods for predicting base pressure .",
+        "docs": [
+            "180",
+            "388",
+            "629",
+            "659",
+            "660",
+            "664"
+        ]
+    },
+    {
+        "id": "67",
+        "source": "cran",
+        "text": "does transition in the hypersonic wake depend on body geometry and size",
+        "docs": [
+            "2",
+            "3",
+            "4",
+            "128",
+            "180",
+            "323",
+            "324",
+            "388",
+            "389",
+            "393",
+            "394",
+            "629",
+            "659",
+            "664",
+            "1302"
+        ]
+    },
+    {
+        "id": "68",
+        "source": "cran",
+        "text": "how can one detect transition phenomena in boundary layers .",
+        "docs": [
+            "62",
+            "101",
+            "460",
+            "628",
+            "661",
+            "662"
+        ]
+    },
+    {
+        "id": "69",
+        "source": "cran",
+        "text": "how can one detect transition phenomena in hypersonic wakes .",
+        "docs": [
+            "62",
+            "336",
+            "458",
+            "540",
+            "570",
+            "977"
+        ]
+    },
+    {
+        "id": "71",
+        "source": "cran",
+        "text": "has anyone investigated and developed a simple model for the vortex wake behind a cruciform wing .",
+        "docs": [
+            "101",
+            "540",
+            "569",
+            "571",
+            "572",
+            "655",
+            "798",
+            "1213",
+            "1355"
+        ]
+    },
+    {
+        "id": "72",
+        "source": "cran",
+        "text": "what is a criterion that the transonic flow around an airfoil with a round leading edge be validly analyzed by the linearized transonic flow theory .",
+        "docs": [
+            "21",
+            "62",
+            "94",
+            "128",
+            "304",
+            "305",
+            "309",
+            "323",
+            "324",
+            "388",
+            "494",
+            "570",
+            "571",
+            "629",
+            "630",
+            "655",
+            "663",
+            "664"
+        ]
+    },
+    {
+        "id": "74",
+        "source": "cran",
+        "text": "can the transonic flow around an arbitrary smooth thin airfoil be analysed in a simple approximate way .",
+        "docs": [
+            "317",
+            "541",
+            "574",
+            "575",
+            "576",
+            "578",
+            "656"
+        ]
+    },
+    {
+        "id": "79",
+        "source": "cran",
+        "text": "what are the details of the rigorous kinetic theory of gases . (chapman-enskog theory) .",
+        "docs": [
+            "544",
+            "597",
+            "598",
+            "688",
+            "708",
+            "713"
+        ]
+    },
+    {
+        "id": "80",
+        "source": "cran",
+        "text": "has anyone investigated the effect of surface mass transfer on hypersonic viscous interactions .",
+        "docs": [
+            "544",
+            "594",
+            "596",
+            "597",
+            "598"
+        ]
+    },
+    {
+        "id": "81",
+        "source": "cran",
+        "text": "what is the combined effect of surface heat and mass transfer on hypersonic flow .",
+        "docs": [
+            "631",
+            "672",
+            "799"
+        ]
+    },
+    {
+        "id": "82",
+        "source": "cran",
+        "text": "what are the existing solutions for hypersonic viscous interactions over an insulated flat plate .",
+        "docs": [
+            "205",
+            "632",
+            "676",
+            "677",
+            "678",
+            "679"
+        ]
+    },
+    {
+        "id": "83",
+        "source": "cran",
+        "text": "what controls leading-edge attachment at transonic speeds .",
+        "docs": [
+            "633",
+            "680",
+            "681",
+            "682",
+            "683"
+        ]
+    },
+    {
+        "id": "84",
+        "source": "cran",
+        "text": "can the three-point boundary-value problem for the blasius equation be integrated numerically,  using suitable transformations,  without iteration on the boundary conditions .",
+        "docs": [
+            "142",
+            "294",
+            "354",
+            "406",
+            "522",
+            "546",
+            "606",
+            "608",
+            "873",
+            "962",
+            "1192",
+            "1213"
+        ]
+    },
+    {
+        "id": "85",
+        "source": "cran",
+        "text": "what are the effects of small amounts of gas rarefaction on the characteristics of the boundary layers on slender bodies of revolution .",
+        "docs": [
+            "406",
+            "546",
+            "606",
+            "608",
+            "710"
+        ]
+    },
+    {
+        "id": "86",
+        "source": "cran",
+        "text": "what is the available information pertaining to boundary layers on very slender bodies of revolution in continuum flow (the ?transverse curvature  effect) .",
+        "docs": [
+            "594",
+            "755",
+            "790"
+        ]
+    },
+    {
+        "id": "87",
+        "source": "cran",
+        "text": "what is the available information pertaining to the effect of slight rarefaction on boundary layer flows (the ?slip? effect) .",
+        "docs": [
+            "50",
+            "236",
+            "406",
+            "547",
+            "562",
+            "606",
+            "609",
+            "611",
+            "612"
+        ]
+    },
+    {
+        "id": "93",
+        "source": "cran",
+        "text": "what investigations have been made of the flow field about a body moving through a rarefied,  partially ionized gas in the presence of a magnetic field .",
+        "docs": [
+            "635",
+            "691"
+        ]
+    },
+    {
+        "id": "94",
+        "source": "cran",
+        "text": "how is the heat transfer downstream of the mass transfer region effected by mass transfer at the nose of a blunted cone .",
+        "docs": [
+            "24",
+            "101",
+            "283",
+            "294",
+            "354",
+            "559",
+            "635",
+            "689",
+            "690",
+            "1104",
+            "1161",
+            "1393",
+            "1395"
+        ]
+    },
+    {
+        "id": "95",
+        "source": "cran",
+        "text": "to what extent can the available information for incompressible boundary layers be applied to problems involving compressible boundary layers .",
+        "docs": [
+            "283",
+            "635",
+            "662"
+        ]
+    },
+    {
+        "id": "97",
+        "source": "cran",
+        "text": "to what extent can readily available steady-state aerodynamic data be utilized to predict lifting-surface flutter characteristics .",
+        "docs": [
+            "637",
+            "681",
+            "698",
+            "699",
+            "700",
+            "701",
+            "702",
+            "703",
+            "779",
+            "1289",
+            "1339"
+        ]
+    },
+    {
+        "id": "98",
+        "source": "cran",
+        "text": "what are the significant steady and non-steady flow characteristics which affect the flutter mechanism .",
+        "docs": [
+            "638",
+            "708",
+            "709",
+            "711",
+            "712",
+            "713"
+        ]
+    },
+    {
+        "id": "99",
+        "source": "cran",
+        "text": "is it possible to determine rates of forced convective heat transfer from heated cylinders of non-circular cross-section,  (the fluid flow being along the generators) .",
+        "docs": [
+            "639",
+            "717",
+            "719",
+            "1001",
+            "1379"
+        ]
+    },
+    {
         "id": "100",
+        "source": "cran",
         "text": "how much is known about boundary layer flows along non-circular cylinders .",
         "docs": [
+            "760",
+            "820",
             "821",
             "822",
-            "824",
-            "820",
             "823",
+            "824",
             "825",
-            "1122",
             "1051",
             "1121",
-            "760"
+            "1122"
         ]
     },
     {
         "id": "101",
+        "source": "cran",
         "text": "is there any simple,  but practical,  method for numerical integration of the mixing problem (i.e. the blasius problem with three-point boundary conditions) .",
         "docs": [
+            "760",
             "817",
             "818",
             "819",
             "820",
-            "825",
             "824",
-            "760"
+            "825"
         ]
     },
     {
         "id": "102",
+        "source": "cran",
         "text": "does there exist a closed-form expression for the local heat transfer around a yawed cylinder .",
         "docs": [
             "728",
-            "913",
+            "729",
             "910",
             "911",
-            "729"
+            "913"
         ]
     },
     {
         "id": "103",
+        "source": "cran",
         "text": "how far around a cylinder and under what conditions of flow,  if any, is the velocity just outside of the boundary layer a linear function of the distance around the cylinder .",
         "docs": [
+            "761",
             "826",
-            "828",
-            "761"
+            "828"
         ]
     },
     {
         "id": "104",
+        "source": "cran",
         "text": "where can i find pressure data on surfaces of swept cylinders .",
         "docs": [
+            "762",
             "833",
             "834",
             "835",
             "836",
-            "837",
-            "762"
+            "837"
         ]
     },
     {
         "id": "105",
+        "source": "cran",
         "text": "can't the static deflection shapes be used in predicting flutter in place of vibrational shapes . if so,  can we provide a justification by means of an example .",
         "docs": [
-            "848",
+            "764",
             "844",
             "845",
             "846",
             "847",
-            "764"
+            "848"
         ]
     },
     {
         "id": "106",
+        "source": "cran",
         "text": "does the boundary layer on a flat plate in a shear flow induce a pressure gradient .",
         "docs": [
-            "847",
-            "846",
-            "849",
+            "764",
             "844",
             "845",
-            "764"
+            "846",
+            "847",
+            "849"
         ]
     },
     {
         "id": "107",
+        "source": "cran",
         "text": "can the procedure of matching inner and outer solutions for a viscous flow problem be applied when the main stream is a shear flow .",
         "docs": [
+            "75",
+            "640",
+            "720",
             "725",
             "728",
             "729",
-            "911",
-            "720",
-            "75",
             "909",
-            "640"
+            "911"
         ]
     },
     {
         "id": "108",
+        "source": "cran",
         "text": "can series expansions be found for the boundary layer on a flat plate in a shear flow .",
         "docs": [
+            "75",
+            "640",
+            "720",
+            "723",
             "724",
             "726",
             "727",
-            "75",
-            "909",
-            "720",
-            "723",
-            "640"
+            "909"
         ]
     },
     {
         "id": "109",
+        "source": "cran",
         "text": "what possible techniques are available for computing the injection distribution corresponding to an isothermal transpiration cooled hemisphere .",
         "docs": [
+            "12",
+            "606",
+            "766",
             "860",
             "861",
-            "606",
-            "980",
-            "12",
-            "766"
+            "980"
         ]
     },
     {
         "id": "110",
+        "source": "cran",
         "text": "what is known regarding asymptotic solutions to the exact boundary layer equations .",
         "docs": [
+            "31",
+            "766",
             "862",
             "863",
-            "31",
-            "1174",
-            "766"
+            "1174"
         ]
     },
     {
         "id": "111",
+        "source": "cran",
         "text": "previous solutions to the boundary layer similarity equations .",
         "docs": [
             "15",
             "391",
-            "864",
-            "914",
             "392",
             "627",
             "658",
-            "894"
+            "864",
+            "894",
+            "914"
         ]
     },
     {
         "id": "112",
+        "source": "cran",
         "text": "experimental results on hypersonic viscous interaction .",
         "docs": [
-            "731",
+            "641",
             "730",
-            "641"
+            "731"
         ]
     },
     {
         "id": "113",
+        "source": "cran",
         "text": "what has been done about viscous interactions in relatively low reynolds number flows,  particularly at high mach numbers .",
         "docs": [
+            "265",
+            "643",
             "746",
             "748",
-            "749",
-            "265",
-            "643"
+            "749"
         ]
     },
     {
         "id": "114",
+        "source": "cran",
         "text": "what role does the effect of chemical reaction (particularly when out of equilibrium) play in the similitude laws governing hypersonic flows over slender aerodynamic bodies .",
         "docs": [
-            "919",
+            "895",
             "916",
+            "919",
             "920",
-            "921",
-            "895"
+            "921"
         ]
     },
     {
         "id": "116",
+        "source": "cran",
         "text": "how significant is the possible pressure of a dissociated free stream with respect to the realization of hypersonic simulation in high enthalpy wind tunnels .",
         "docs": [
-            "922",
             "360",
-            "605",
-            "927",
             "492",
-            "896"
+            "605",
+            "896",
+            "922",
+            "927"
         ]
     },
     {
         "id": "118",
+        "source": "cran",
         "text": "do the discrepancies among current analyses of the vorticity effect on stagnation-point heat transfer result primarily from the differences in the viscosity-temperature law assumed .",
         "docs": [
+            "896",
             "923",
             "924",
-            "925",
-            "896"
+            "925"
         ]
     },
     {
         "id": "119",
+        "source": "cran",
         "text": "how far can one trust the linear viscosity-temperature solution assumed in some of the analyses of hypersonic shock layer at low reynolds number .",
         "docs": [
-            "926",
-            "897"
+            "897",
+            "926"
         ]
     },
     {
         "id": "120",
+        "source": "cran",
         "text": "how close is the comparison of the shock layer theory with existing experiments in the low reynolds number (merged-layer) regime .",
         "docs": [
+            "769",
             "829",
-            "887",
-            "890",
             "885",
             "886",
+            "887",
             "888",
             "889",
-            "1146",
+            "890",
             "891",
-            "769"
+            "1146"
         ]
     },
     {
         "id": "121",
+        "source": "cran",
         "text": "has anyone explained the kink in the surge line of a multi-stage axial compressor .",
         "docs": [
+            "769",
             "885",
             "886",
-            "1146",
             "887",
             "888",
             "890",
             "891",
-            "769"
+            "1146"
         ]
     },
     {
         "id": "122",
+        "source": "cran",
         "text": "have any aerodynamic derivatives been measured at hypersonic mach numbers and comparison been made with theoretical work .",
         "docs": [
+            "898",
             "931",
             "932",
             "934",
@@ -252,443 +1163,474 @@
             "937",
             "938",
             "957",
-            "1131",
-            "898"
+            "1131"
         ]
     },
     {
         "id": "123",
+        "source": "cran",
         "text": "are methods of measuring aerodynamic derivatives available which could be adopted for use in short running time facilities .",
         "docs": [
+            "941",
             "966",
-            "967",
-            "941"
+            "967"
         ]
     },
     {
         "id": "126",
+        "source": "cran",
         "text": "what are wind-tunnel corrections for a two-dimensional aerofoil mounted off-centre in a tunnel .",
         "docs": [
-            "974",
-            "1326",
             "187",
+            "942",
             "969",
             "970",
             "971",
             "972",
             "973",
-            "942"
+            "974",
+            "1326"
         ]
     },
     {
         "id": "128",
+        "source": "cran",
         "text": "how do kuchemann's and multhopp's methods for calculating lift distributions on swept wings in subsonic flow compare with each other and with experiment .",
         "docs": [
+            "945",
             "985",
-            "990",
-            "945"
+            "990"
         ]
     },
     {
         "id": "130",
+        "source": "cran",
         "text": "what is the present state of the theory of quasi-conical flows .",
         "docs": [
+            "12",
             "766",
             "858",
             "859",
-            "1008",
-            "12",
-            "948"
+            "948",
+            "1008"
         ]
     },
     {
         "id": "131",
+        "source": "cran",
         "text": "references on the methods available for accurately estimating aerodynamic heat transfer to conical bodies for both laminar and turbulent flow .",
         "docs": [
-            "1014",
-            "1020",
+            "950",
+            "1012",
             "1013",
+            "1014",
             "1016",
             "1017",
-            "1012",
             "1018",
             "1019",
-            "950"
+            "1020"
         ]
     },
     {
         "id": "132",
+        "source": "cran",
         "text": "what parameters can seriously influence natural transition from laminar to turbulent flow on a model in a wind tunnel .",
         "docs": [
-            "1014",
+            "950",
+            "951",
+            "952",
+            "1012",
             "1013",
+            "1014",
             "1015",
             "1016",
-            "1012",
+            "1017",
             "1018",
             "1019",
-            "1017",
-            "951",
-            "1023",
             "1020",
-            "952",
+            "1023",
             "1024",
             "1025",
-            "1026",
-            "950"
+            "1026"
         ]
     },
     {
         "id": "133",
+        "source": "cran",
         "text": "can a satisfactory experimental technique be developed for measuring oscillatory derivatives on slender sting-mounted models in supersonic wind tunnels .",
         "docs": [
-            "1020",
-            "1018",
-            "1019",
-            "1024",
+            "950",
             "1012",
             "1016",
+            "1018",
+            "1019",
+            "1020",
             "1022",
-            "950"
+            "1024"
         ]
     },
     {
         "id": "135",
+        "source": "cran",
         "text": "what effect has the boundary layer in modifying the basic inviscid flow behind the shock,  neglecting effects of leading edge and corner .",
         "docs": [
-            "1018",
+            "950",
+            "951",
+            "1016",
             "1017",
+            "1018",
             "1023",
             "1024",
             "1025",
-            "1026",
-            "950",
-            "1016",
-            "951"
+            "1026"
         ]
     },
     {
         "id": "136",
+        "source": "cran",
         "text": "how does a satellite orbit contract under the action of air drag in an atmosphere in which the scale height varies with altitude .",
         "docs": [
+            "951",
             "1021",
             "1022",
-            "1034",
-            "951"
+            "1034"
         ]
     },
     {
         "id": "137",
+        "source": "cran",
         "text": "how is the flow at transonic speeds about a delta wing different from that on a closely-related tapered sweptback wing .",
         "docs": [
-            "1029",
-            "1034",
             "951",
+            "952",
             "1021",
-            "952"
+            "1029",
+            "1034"
         ]
     },
     {
         "id": "138",
+        "source": "cran",
         "text": "recent data on shock-induced boundary-layer separation .",
         "docs": [
             "846",
-            "1036",
-            "953"
+            "953",
+            "1036"
         ]
     },
     {
         "id": "139",
+        "source": "cran",
         "text": "what interference effects are likely at transonic speeds .",
         "docs": [
+            "953",
             "1031",
             "1032",
             "1035",
-            "1037",
-            "953"
+            "1037"
         ]
     },
     {
         "id": "140",
+        "source": "cran",
         "text": "given complete freedom in the design of an airplane,  what procedure would be used in order to minimize sonic boom intensity,  and is there a limit to the degree of minimizing that can be accomplished .",
         "docs": [
+            "954",
             "1038",
             "1039",
             "1041",
             "1042",
             "1043",
-            "1044",
-            "954"
+            "1044"
         ]
     },
     {
         "id": "141",
+        "source": "cran",
         "text": "can methane-air combustion product be used as a hypersonic test medium and predict, within experimental accuracies, the results obtained in air .",
         "docs": [
+            "954",
             "1038",
-            "1041",
-            "1043",
-            "1044",
             "1039",
+            "1041",
             "1042",
-            "954"
+            "1043",
+            "1044"
         ]
     },
     {
         "id": "142",
+        "source": "cran",
         "text": "what is the theoretical heat transfer rate at the stagnation point of a blunt body .",
         "docs": [
-            "1042",
-            "954"
+            "954",
+            "1042"
         ]
     },
     {
         "id": "143",
+        "source": "cran",
         "text": "what is the theoretical heat transfer distribution around a hemisphere .",
         "docs": [
+            "954",
             "1043",
-            "1044",
-            "954"
+            "1044"
         ]
     },
     {
         "id": "145",
+        "source": "cran",
         "text": "has anyone investigated the unsteady lift distributions on finite wings in subsonic flow .",
         "docs": [
+            "743",
             "763",
             "838",
             "839",
-            "1045",
-            "743",
-            "852",
             "841",
-            "955"
+            "852",
+            "955",
+            "1045"
         ]
     },
     {
         "id": "146",
+        "source": "cran",
         "text": "what information is available for dynamic response of airplanes to gusts  or blasts in the subsonic regime .",
         "docs": [
             "840",
-            "1045",
-            "955"
+            "955",
+            "1045"
         ]
     },
     {
         "id": "147",
+        "source": "cran",
         "text": "will forward or apex located controls be effective at low subsonic speeds and how do they compare with conventional trailing-edge flaps .",
         "docs": [
-            "889",
-            "1046",
-            "1048",
-            "1047",
-            "1049",
-            "1051",
-            "1050",
-            "843",
-            "926",
             "822",
-            "956"
+            "843",
+            "889",
+            "926",
+            "956",
+            "1046",
+            "1047",
+            "1048",
+            "1049",
+            "1050",
+            "1051"
         ]
     },
     {
         "id": "148",
+        "source": "cran",
         "text": "given that an uncontrolled vehicle will tumble as it enters an atmosphere, is it possible to predict when and how it will stop tumbling and its subsequent motion .",
         "docs": [
-            "889",
-            "1048",
-            "1050",
-            "1046",
-            "1049",
             "843",
-            "956"
+            "889",
+            "956",
+            "1046",
+            "1048",
+            "1049",
+            "1050"
         ]
     },
     {
         "id": "149",
+        "source": "cran",
         "text": "what are the effects of initial imperfections on the elastic buckling of cylindrical shells under axial compression .",
         "docs": [
-            "1057",
-            "1058",
-            "1059",
-            "1052",
             "930",
             "931",
             "934",
             "936",
             "937",
             "938",
-            "1131",
-            "957"
+            "957",
+            "1052",
+            "1057",
+            "1058",
+            "1059",
+            "1131"
         ]
     },
     {
         "id": "150",
+        "source": "cran",
         "text": "why does the incremental theory and the deformation theory of plastic stress-strain relationship differ greatly when applied to stability problems .",
         "docs": [
+            "1062",
             "1074",
-            "1075",
-            "1062"
+            "1075"
         ]
     },
     {
         "id": "152",
+        "source": "cran",
         "text": "basic dynamic characteristics of structures continuous over many spans .",
         "docs": [
-            "1076",
-            "1077",
             "569",
             "572",
-            "687",
             "655",
-            "1062"
+            "687",
+            "1062",
+            "1076",
+            "1077"
         ]
     },
     {
         "id": "153",
+        "source": "cran",
         "text": "is the information on the buckling of sandwich sphere available .",
         "docs": [
+            "1063",
             "1078",
-            "1083",
-            "1084",
             "1080",
             "1081",
             "1082",
-            "1085",
-            "1063"
+            "1083",
+            "1084",
+            "1085"
         ]
     },
     {
         "id": "154",
+        "source": "cran",
         "text": "can the load deformation characteristics of a beam be obtained with the material being inelastic and a non uniform temperature being present .",
         "docs": [
+            "1063",
             "1087",
-            "1088",
-            "1063"
+            "1088"
         ]
     },
     {
         "id": "155",
+        "source": "cran",
         "text": "what is the effect of an internal liquid column on the breathing vibrations of a cylindrical shell .",
         "docs": [
-            "1103",
-            "1100",
             "983",
-            "1101",
-            "1104",
+            "1065",
             "1099",
-            "1065"
+            "1100",
+            "1101",
+            "1103",
+            "1104"
         ]
     },
     {
         "id": "156",
+        "source": "cran",
         "text": "experimental techniques in shell vibration .",
         "docs": [
-            "983",
-            "1102",
-            "1097",
-            "1100",
+            "82",
             "274",
+            "553",
+            "982",
+            "983",
+            "1065",
             "1096",
+            "1097",
             "1098",
             "1099",
-            "1103",
-            "982",
-            "1104",
-            "553",
+            "1100",
             "1101",
-            "82",
-            "1065"
+            "1102",
+            "1103",
+            "1104"
         ]
     },
     {
         "id": "157",
+        "source": "cran",
         "text": "in summarizing theoretical and experimental work on the behaviour of a typical aircraft structure in a noise environment is it possible to develop a design procedure .",
         "docs": [
-            "273",
-            "1105",
-            "1106",
-            "93",
-            "161",
-            "302",
-            "122",
-            "666",
-            "1107",
-            "556",
-            "25",
-            "1011",
             "19",
+            "25",
             "35",
-            "1355",
-            "372",
-            "410",
-            "456",
             "36",
             "44",
+            "93",
+            "122",
+            "160",
+            "161",
             "215",
-            "626",
-            "1151",
+            "273",
+            "302",
+            "318",
             "354",
             "369",
             "370",
+            "372",
+            "410",
             "421",
+            "423",
+            "456",
+            "482",
+            "556",
             "557",
+            "572",
             "605",
+            "626",
             "655",
             "657",
+            "666",
             "689",
-            "1307",
-            "318",
-            "423",
+            "1006",
+            "1011",
+            "1105",
+            "1106",
+            "1107",
+            "1151",
             "1304",
-            "160",
-            "482",
-            "572",
-            "1006"
+            "1307",
+            "1355"
         ]
     },
     {
         "id": "158",
+        "source": "cran",
         "text": "what data is there on the fatigue of structures under acoustic loading .",
         "docs": [
+            "273",
             "302",
-            "1011",
             "552",
+            "556",
             "998",
+            "1006",
             "1009",
             "1010",
-            "273",
-            "556",
-            "1006"
+            "1011"
         ]
     },
     {
         "id": "160",
+        "source": "cran",
         "text": "panels subjected to aerodynamic heating .",
         "docs": [
+            "1071",
             "1134",
-            "1137",
-            "1138",
             "1135",
             "1136",
-            "1071"
+            "1137",
+            "1138"
         ]
     },
     {
         "id": "161",
+        "source": "cran",
         "text": "can increasing the edge loading of a plate beyond the critical value for buckling change the buckling mode .",
         "docs": [
             "54",
-            "1386",
-            "562",
-            "336",
             "55",
+            "336",
+            "489",
+            "562",
             "996",
-            "489"
+            "1386"
         ]
     },
     {
         "id": "163",
+        "source": "cran",
         "text": "have the effects of an elastic edge restraint been considered in previous papers on panel flutter .",
         "docs": [
             "20",
@@ -699,21 +1641,23 @@
     },
     {
         "id": "164",
+        "source": "cran",
         "text": "has the solution of the clamped plate problem,  in the classical theory of bending,  been reduced to two successive membrane boundary value problems .",
         "docs": [
             "311",
-            "415",
-            "416",
-            "798",
             "316",
             "335",
+            "415",
+            "416",
+            "503",
+            "798",
             "1364",
-            "1367",
-            "503"
+            "1367"
         ]
     },
     {
         "id": "165",
+        "source": "cran",
         "text": "what data exists on oscillatory aerodynamic forces on control surfaces at transonic mach numbers .",
         "docs": [
             "71",
@@ -723,58 +1667,64 @@
     },
     {
         "id": "167",
+        "source": "cran",
         "text": "it is not likely that the airforces on a wing of general planform oscillating in transonic flow can be determined by purely analytical methods . is it possible to determine the airforces on a single particular planform, such as the rectangular one by such method .",
         "docs": [
-            "274",
             "82",
+            "274",
             "509"
         ]
     },
     {
         "id": "168",
+        "source": "cran",
         "text": "is the problem of similarity for representative investigations of aeroelastic effects in heated flow as intractable as previous investigations imply .",
         "docs": [
             "217",
-            "774",
-            "750"
+            "750",
+            "774"
         ]
     },
     {
         "id": "169",
+        "source": "cran",
         "text": "what is the magnitude and distribution of lift over the cone and the cylindrical portion of a cone-cylinder configuration .",
         "docs": [
             "118",
             "157",
+            "750",
             "774",
-            "775",
-            "750"
+            "775"
         ]
     },
     {
         "id": "170",
+        "source": "cran",
         "text": "is there any information on how the addition of a /boat-tail/ affects the normal force on the body of various angles of incidence .",
         "docs": [
             "139",
             "238",
             "239",
-            "904",
-            "906",
             "672",
-            "893"
+            "893",
+            "904",
+            "906"
         ]
     },
     {
         "id": "171",
+        "source": "cran",
         "text": "what are the aerodynamic interference effects on the fin lift and body lift of a fin-body combination .",
         "docs": [
+            "141",
             "252",
             "431",
-            "141",
             "516"
         ]
     },
     {
         "id": "173",
+        "source": "cran",
         "text": "what is the effect of initial axisymmetric deviations from circularity on the non linear (large-deflection) load-deflection response of cylinders under hydrostatic pressure .",
         "docs": [
             "367",
@@ -784,396 +1734,423 @@
     },
     {
         "id": "175",
+        "source": "cran",
         "text": "are previous analyses of circumferential thermal buckling of circular cylindrical shells unnecessarily involved or even inaccurate due to the assumed forms of buckling mode .",
         "docs": [
             "351",
-            "966",
-            "967",
+            "941",
             "964",
             "965",
-            "941"
+            "966",
+            "967"
         ]
     },
     {
         "id": "176",
+        "source": "cran",
         "text": "what papers are there dealing with circumferential buckling either thermal buckling or due to mechanical loading .",
         "docs": [
+            "542",
             "582",
             "583",
             "584",
             "585",
-            "978",
             "586",
-            "982",
-            "542"
+            "978",
+            "982"
         ]
     },
     {
         "id": "177",
+        "source": "cran",
         "text": "what analytical investigations have been made of the stability of conical shells . how do the results compare with experiment .",
         "docs": [
+            "543",
             "588",
             "589",
-            "592",
-            "772",
             "590",
-            "543"
+            "592",
+            "772"
         ]
     },
     {
         "id": "181",
+        "source": "cran",
         "text": "has any work been done on determining the nature of compressible viscous flow in a straight channel .",
         "docs": [
+            "409",
+            "942",
             "973",
             "974",
-            "409",
             "997",
-            "1061",
-            "942"
+            "1061"
         ]
     },
     {
         "id": "182",
+        "source": "cran",
         "text": "in what areas, other than low density wind tunnel flows, is viscous compressible flow in slender channels a problem . what analytical investigations have been made of the stability of conical shells . how do the results compare with experiment .",
         "docs": [
+            "634",
             "685",
-            "686",
-            "634"
+            "686"
         ]
     },
     {
         "id": "183",
+        "source": "cran",
         "text": "jet interference with supersonic flow  -dash experimental papers .",
         "docs": [
-            "803",
-            "808",
-            "802",
-            "807",
-            "811",
             "253",
+            "758",
+            "802",
+            "803",
             "804",
             "805",
             "806",
+            "807",
+            "808",
             "809",
             "810",
+            "811",
             "1243",
-            "1247",
-            "758"
+            "1247"
         ]
     },
     {
         "id": "184",
+        "source": "cran",
         "text": "thrust vector control by fluid injection -dash papers .",
         "docs": [
             "32",
             "67",
-            "715",
-            "717",
-            "716",
             "499",
-            "1379",
-            "639"
+            "639",
+            "715",
+            "716",
+            "717",
+            "1379"
         ]
     },
     {
         "id": "187",
+        "source": "cran",
         "text": "is it possible to obtain a reasonably simple analytical solution to the heat equation for an exponential (in time) heat input .",
         "docs": [
+            "743",
+            "763",
             "838",
             "839",
             "840",
-            "743",
             "842",
-            "1045",
-            "763"
+            "1045"
         ]
     },
     {
         "id": "189",
+        "source": "cran",
         "text": "has anyone programmed a pump design method for a high-speed digital computer .",
         "docs": [
             "395",
-            "866",
-            "869",
+            "767",
             "865",
-            "868",
-            "870",
+            "866",
             "867",
+            "868",
+            "869",
+            "870",
             "872",
-            "873",
-            "767"
+            "873"
         ]
     },
     {
         "id": "190",
+        "source": "cran",
         "text": "has anyone derived simplified pump design equation from the fundamental three-dimensional equations for incompressible nonviscous flow .",
         "docs": [
             "15",
-            "391",
             "285",
             "390",
+            "391",
             "864",
             "894"
         ]
     },
     {
         "id": "196",
+        "source": "cran",
         "text": "what are the flutter characteristics of the exposed skin panels of the x-15 vertical stabilizer when subjected to aerodynamic heating .",
         "docs": [
-            "51",
-            "185",
-            "874",
-            "878",
-            "879",
-            "880",
             "12",
-            "875",
-            "876",
+            "13",
+            "51",
+            "184",
+            "185",
             "202",
             "746",
-            "13",
-            "184"
+            "874",
+            "875",
+            "876",
+            "878",
+            "879",
+            "880"
         ]
     },
     {
         "id": "200",
+        "source": "cran",
         "text": "what agreement is found between theoretically predicted instability times and experimentally measured collapse times for compressed columns in creep .",
         "docs": [
+            "1071",
             "1134",
             "1137",
-            "1138",
-            "1071"
+            "1138"
         ]
     },
     {
         "id": "201",
+        "source": "cran",
         "text": "theoretical studies of creep buckling .",
         "docs": [
+            "93",
+            "110",
+            "160",
+            "318",
+            "369",
+            "401",
+            "423",
+            "482",
+            "541",
             "552",
             "625",
-            "1296",
-            "93",
+            "1140",
             "1151",
-            "401",
-            "110",
-            "1391",
-            "423",
-            "541",
             "1295",
-            "318",
+            "1296",
             "1304",
-            "160",
-            "369",
-            "482",
-            "1140"
+            "1391"
         ]
     },
     {
         "id": "202",
+        "source": "cran",
         "text": "experimental studies of creep buckling .",
         "docs": [
-            "1303",
-            "1304",
-            "1309",
-            "1306",
-            "1308",
-            "605",
+            "48",
+            "232",
             "602",
             "603",
             "604",
+            "605",
             "1110",
+            "1285",
+            "1303",
+            "1304",
             "1305",
-            "1310",
-            "48",
-            "232",
-            "1285"
+            "1306",
+            "1308",
+            "1309",
+            "1310"
         ]
     },
     {
         "id": "203",
+        "source": "cran",
         "text": "is it possible to correlate the results on the creep buckling of widely different structures within the framework of a single theory .",
         "docs": [
+            "19",
             "58",
-            "1305",
-            "1306",
+            "122",
+            "232",
+            "323",
             "602",
             "603",
             "604",
-            "1307",
-            "1310",
-            "19",
-            "232",
-            "323",
             "688",
-            "122",
             "1188",
-            "1285"
+            "1285",
+            "1305",
+            "1306",
+            "1307",
+            "1310"
         ]
     },
     {
         "id": "204",
+        "source": "cran",
         "text": "what are the experimental results for the creep buckling of columns .",
         "docs": [
-            "572",
-            "1311",
             "63",
+            "68",
+            "307",
             "540",
+            "572",
             "602",
             "603",
             "604",
-            "1305",
-            "1188",
-            "307",
-            "1213",
             "655",
-            "1355",
-            "68",
-            "1285"
+            "1188",
+            "1213",
+            "1285",
+            "1305",
+            "1311",
+            "1355"
         ]
     },
     {
         "id": "205",
+        "source": "cran",
         "text": "what are the results for the creep buckling of round tubes under external pressure .",
         "docs": [
+            "1287",
             "1321",
-            "1322",
-            "1287"
+            "1322"
         ]
     },
     {
         "id": "206",
+        "source": "cran",
         "text": "have any analytical studies been conducted on the time-to-failure mechanism associated with creep collapse for a long circular cylindrical shell which exhibits both primary and secondary creep as well as elastic deformations under various distributed force systems .",
         "docs": [
+            "1290",
             "1338",
-            "1341",
             "1340",
-            "1290"
+            "1341"
         ]
     },
     {
         "id": "208",
+        "source": "cran",
         "text": "has the effect of initial stresses,  on the frequencies of vibration of circular cylindrical shells,  been investigated .",
         "docs": [
             "163",
+            "164",
+            "1291",
             "1344",
             "1345",
-            "164",
-            "1347",
             "1346",
-            "1291"
+            "1347"
         ]
     },
     {
         "id": "209",
+        "source": "cran",
         "text": "has the effect of the change of initial pressure due to deformation,  on the frequencies of vibration of circular cylindrical shells been investigated .",
         "docs": [
-            "1351",
-            "1356",
-            "1350",
-            "187",
-            "487",
             "45",
             "55",
+            "187",
             "316",
-            "1383",
-            "1385",
+            "487",
             "1106",
             "1228",
-            "1292"
+            "1292",
+            "1350",
+            "1351",
+            "1356",
+            "1383",
+            "1385"
         ]
     },
     {
         "id": "210",
+        "source": "cran",
         "text": "what are the discontinuity stresses at junctions in pressurized structures .",
         "docs": [
-            "1171",
             "891",
+            "1030",
+            "1145",
+            "1171",
             "1172",
             "1173",
-            "1030",
-            "1174",
-            "1145"
+            "1174"
         ]
     },
     {
         "id": "211",
+        "source": "cran",
         "text": "what analytical solutions are available for stresses in edge-loaded shells of revolution .",
         "docs": [
-            "891",
-            "1172",
-            "1173",
-            "1174",
             "763",
             "769",
+            "891",
             "1030",
             "1031",
             "1033",
             "1052",
             "1068",
-            "1145"
+            "1145",
+            "1172",
+            "1173",
+            "1174"
         ]
     },
     {
         "id": "212",
+        "source": "cran",
         "text": "what dome contours minimize discontinuity stresses when used as closures on cylindrical pressure vessels .",
         "docs": [
+            "769",
+            "841",
+            "843",
+            "885",
+            "886",
+            "887",
             "888",
             "889",
-            "1178",
-            "885",
-            "887",
-            "886",
-            "841",
+            "890",
+            "891",
+            "1146",
+            "1173",
             "1176",
             "1177",
-            "890",
-            "769",
-            "891",
-            "1173",
-            "843",
-            "1146"
+            "1178"
         ]
     },
     {
         "id": "213",
+        "source": "cran",
         "text": "what general solutions for the stresses in pressurized shells of revolution are available .",
         "docs": [
-            "888",
-            "885",
-            "887",
-            "889",
-            "1178",
             "769",
+            "843",
+            "885",
+            "886",
+            "887",
+            "888",
+            "889",
+            "890",
+            "1146",
             "1173",
             "1177",
-            "886",
-            "890",
-            "843",
-            "1146"
+            "1178"
         ]
     },
     {
         "id": "214",
+        "source": "cran",
         "text": "can studies of pure membrane cylinders having no wall bending stiffness but maintaining their shape by virtue of internal pressure provide any insight into the behaviour of pressurized cylinders with finite wall stiffness .",
         "docs": [
             "833",
+            "1294",
             "1361",
             "1362",
-            "1363",
-            "1294"
+            "1363"
         ]
     },
     {
         "id": "215",
+        "source": "cran",
         "text": "what are the best experimental data and classical small deflection theory analyses available for pressurized cylinders in bending .",
         "docs": [
-            "37",
             "35",
+            "37",
             "535"
         ]
     },
     {
         "id": "216",
+        "source": "cran",
         "text": "does a membrane theory exist by which the behaviour of pressurized membrane cylinders in bending can be predicted .",
         "docs": [
             "156",
@@ -1182,128 +2159,134 @@
     },
     {
         "id": "217",
+        "source": "cran",
         "text": "what are the equations which define the stability of simply supported corrugated core sandwich cylinders .",
         "docs": [
-            "666",
-            "667",
-            "1258",
-            "1394",
-            "668",
-            "670",
-            "1204",
-            "1391",
-            "1395",
-            "1300",
             "37",
             "559",
             "630",
+            "666",
+            "667",
+            "668",
+            "670",
             "1107",
+            "1191",
+            "1204",
             "1213",
-            "1191"
+            "1258",
+            "1300",
+            "1391",
+            "1394",
+            "1395"
         ]
     },
     {
         "id": "218",
+        "source": "cran",
         "text": "papers on small deflection theory for buckling of sandwich cylinders .",
         "docs": [
             "24",
-            "101",
-            "666",
-            "667",
             "93",
-            "1258",
-            "1393",
+            "101",
             "559",
             "630",
             "662",
+            "666",
+            "667",
             "1104",
             "1107",
+            "1191",
             "1204",
             "1213",
+            "1258",
             "1300",
-            "1191"
+            "1393"
         ]
     },
     {
         "id": "219",
+        "source": "cran",
         "text": "has anyone developed an analysis which accurately establishes the large deflection behaviour of conical shells .",
         "docs": [
-            "1391",
-            "666",
-            "667",
-            "1258",
-            "1078",
-            "1080",
-            "1081",
-            "1394",
-            "1395",
-            "1214",
-            "1198",
-            "1204",
-            "1300",
             "559",
             "630",
             "662",
+            "666",
+            "667",
+            "1078",
+            "1080",
+            "1081",
             "1107",
+            "1191",
+            "1198",
+            "1204",
             "1213",
-            "1191"
+            "1214",
+            "1258",
+            "1300",
+            "1391",
+            "1394",
+            "1395"
         ]
     },
     {
         "id": "223",
+        "source": "cran",
         "text": "what is the magnitude of second-order wing-body interference at high supersonic mach number .",
         "docs": [
             "400",
             "1387",
             "1392",
-            "1398",
-            "1396"
+            "1396",
+            "1398"
         ]
     },
     {
         "id": "224",
+        "source": "cran",
         "text": "what is the best theoretical method for calculating pressure on the surface of a wing alone .",
         "docs": [
             "656",
-            "1313",
-            "1317",
-            "1316",
-            "1318",
-            "1319",
             "1157",
             "1274",
-            "1286"
+            "1286",
+            "1313",
+            "1316",
+            "1317",
+            "1318",
+            "1319"
         ]
     },
     {
         "id": "225",
+        "source": "cran",
         "text": "how can the effect of the boundary-layer on wing pressure be calculated, and what is its magnitude .",
         "docs": [
-            "1379",
-            "1305",
-            "1304",
             "40",
-            "293",
-            "1309",
             "161",
-            "421",
-            "1377",
-            "1378",
-            "1381",
             "225",
-            "1380",
+            "293",
+            "421",
+            "433",
             "448",
             "449",
-            "1124",
-            "1280",
-            "433",
             "923",
             "924",
             "1062",
             "1074",
             "1075",
+            "1124",
+            "1188",
             "1213",
-            "1188"
+            "1280",
+            "1304",
+            "1305",
+            "1309",
+            "1377",
+            "1378",
+            "1379",
+            "1380",
+            "1381"
         ]
     }
 ]

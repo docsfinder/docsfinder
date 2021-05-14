@@ -1,12 +1,14 @@
 import re
 from typing import Dict, Iterable, Match, Pattern
 
+from nltk.stem.snowball import SnowballStemmer
 from spacy import load
 
 
 class Indexer:
     def __init__(self):
         self.nlp = load("en_core_web_sm")
+        self.stemmer = SnowballStemmer(language="english")
 
     def get_indexes(self, text: str, remove_stopwords: bool = True) -> Iterable[str]:
         lower_text = text.lower()
@@ -17,7 +19,8 @@ class Indexer:
         result = set()
         for token in doc:
             if token_is_valid(token, remove_stopwords):
-                result.add(token.text)
+                temp = self.stemmer.stem(token.text)
+                result.add(temp)
         return result
 
 
@@ -43,8 +46,8 @@ def token_is_valid(token, remove_stopwords: bool) -> bool:
     if token.is_space:
         # print(f"Token '{token}' is a space.")
         return False
-    # if token.pos_ in ["ADP", "AUX", "CONJ", "DET", "PART", "PRON", "SCONJ"]:
-    #     return False
+    if token.pos_ in ["ADP", "AUX", "CONJ", "DET", "PART", "PRON", "SCONJ"]:
+        return False
     return True
 
 

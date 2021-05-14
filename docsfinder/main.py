@@ -67,7 +67,7 @@ def load():
 
 
 @typer_app.command()
-def save(data: str = "data/all_data.json"):
+def save(data: str):
     typer.echo("Loading ...")
     engine = Engine()
     engine.train(data)
@@ -76,11 +76,22 @@ def save(data: str = "data/all_data.json"):
 
 
 @typer_app.command()
-def test(
-    data: str = "data/all_data.json",
-    query: str = "data/all_query.json",
-    top: int = 10,
-):
+def save_all():
+    save("data/all_data.json")
+
+
+@typer_app.command()
+def save_cisi():
+    save("data/cisi_data.json")
+
+
+@typer_app.command()
+def save_cran():
+    save("data/cran_data.json")
+
+
+@typer_app.command()
+def test(data: str, query: str, top: int = 10):
     typer.echo("Loading ...")
     engine = Engine()
     engine.train(data)
@@ -97,3 +108,18 @@ def test(
     typer.echo("Running Fallout test ...")
     fallout = engine.test_recall(query, top)
     typer.echo(f"Fallout: {fallout}")
+
+
+@typer_app.command()
+def test_all(top: int = 10):
+    test("data/all_data.json", "data/all_query.json", top)
+
+
+@typer_app.command()
+def test_cisi(top: int = 10):
+    test("data/cisi_data.json", "data/cisi_query.json", top)
+
+
+@typer_app.command()
+def test_cran(top: int = 10):
+    test("data/cran_data.json", "data/cran_query.json", top)

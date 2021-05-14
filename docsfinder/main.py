@@ -60,7 +60,6 @@ def find():
 
 @typer_app.command()
 def load():
-    typer.echo("Loading ...")
     engine = Engine()
     engine.load()
     typer.echo("Loaded")

@@ -4,7 +4,7 @@ from typing import List
 from fastapi import FastAPI, Query, Request
 from fastapi.responses import RedirectResponse
 
-from ...core.full_document import FullDocument
+from ...core.models import FullDocument
 from ...dependencies import dependencies
 
 api = FastAPI(title="Docs Finder")

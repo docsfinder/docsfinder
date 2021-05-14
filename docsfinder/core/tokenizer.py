@@ -5,12 +5,12 @@ from nltk.stem.snowball import SnowballStemmer
 from spacy import load
 
 
-class Indexer:
+class Tokenizer:
     def __init__(self):
         self.nlp = load("en_core_web_sm")
         self.stemmer = SnowballStemmer(language="english")
 
-    def get_indexes(self, text: str, remove_stopwords: bool = True) -> Iterable[str]:
+    def tokenize(self, text: str, remove_stopwords: bool = True) -> Iterable[str]:
         lower_text = text.lower()
         expanded_text = expand_contractions(lower_text)
         cleaned_text = clean_text(expanded_text)
@@ -19,7 +19,7 @@ class Indexer:
         result = set()
         for token in doc:
             if token_is_valid(token, remove_stopwords):
-                temp = self.stemmer.stem(token.text)
+                temp = self.stemmer.stem(token.text).lower()
                 result.add(temp)
         return result
 

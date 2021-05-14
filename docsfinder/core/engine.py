@@ -4,19 +4,15 @@ from typing import List, Optional, cast
 import numpy as np
 from pydantic import ValidationError
 
-from .document import Document
-from .full_document import FullDocument
-from .indexed_document import IndexedDocument
-from .indexer import Indexer
-from .model import Model
-from .query import Query
+from .models import Document, FullDocument, IndexedDocument, Model, Query
+from .tokenizer import Tokenizer
 from .vectorizer import Vectorizer
 
 
 class Engine:
     def __init__(self):
         self.documents: List[Document] = []
-        self.indexer = Indexer()
+        self.tokenizer = Tokenizer()
         self.vectorizer = Vectorizer()
 
     def save(self):
@@ -34,7 +30,7 @@ class Engine:
             data = json.load(file)
             model = Model(**data)
             self.documents = model.documents
-            self.indexer = Indexer()
+            self.tokenizer = Tokenizer()
             self.vectorizer = Vectorizer()
             self.vectorizer.terms = model.terms
         self.vectorizer.idf = np.load("save/idf.npy")
@@ -55,12 +51,12 @@ class Engine:
                     continue
         print("Data loaded")
         print("Indexing documents ...")
-        self.indexer = Indexer()
+        self.tokenizer = Tokenizer()
         for item in self.documents:
             indexed_documents.append(
                 IndexedDocument(
                     **item.dict(),
-                    indexes=self.indexer.get_indexes(f"{item.title} {item.content}"),
+                    indexes=self.tokenizer.tokenize(f"{item.title} {item.content}"),
                 ),
             )
         print("Documents indexed")
@@ -72,7 +68,7 @@ class Engine:
         print("Model trained")
 
     def find(self, query: str, count: int = 10) -> List[FullDocument]:
-        query_tokens = self.indexer.get_indexes(query, remove_stopwords=False)
+        query_tokens = self.tokenizer.tokenize(query, remove_stopwords=False)
         results = self.vectorizer.query(list(query_tokens))
         return [
             FullDocument(
@@ -90,7 +86,7 @@ class Engine:
         bad_feedback: List[int],
         count: int = 10,
     ) -> List[FullDocument]:
-        query_tokens = self.indexer.get_indexes(query, remove_stopwords=False)
+        query_tokens = self.tokenizer.tokenize(query, remove_stopwords=False)
         results = self.vectorizer.query_with_feedback(
             list(query_tokens),
             good_feedback,
@@ -118,9 +114,9 @@ class Engine:
                 except ValidationError:
                     continue
         global_precisions = []
-        # len_queries = len(queries)
-        for _, query in enumerate(queries):
-            # print(f"Run query {index + 1} of {len_queries}")
+        len_queries = len(queries)
+        for index, query in enumerate(queries):
+            print(f"Run query {index + 1} of {len_queries}")
             result = self.find(query.text, top)
             mask = [1 if doc.id in query.docs else 0 for doc in result]
             # print("Result finded")

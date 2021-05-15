@@ -15,19 +15,17 @@ docsfinder = "docsfinder.main:typer_app"
 [tool.poetry.dependencies]
 python = "^3.8"
 typer = "^0.3.2"
-fastapi = {extras = ["all"], version = "^0.64.0"}
 spacy = "^3.0.6"
 en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm"}
-gensim = "^4.0.1"
-scikit-learn = "^0.24.2"
 nltk = "^3.6.2"
+fastapi = {extras = ["all"], version = "^0.65.1"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
 flake8 = "^3.9.2"
-black = "^21.5b0"
 isort = "^5.8.0"
-pytest-cov = "^2.11.1"
+black = "^21.5b1"
+pytest-cov = "^2.12.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

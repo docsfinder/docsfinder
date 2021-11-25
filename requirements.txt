@@ -1,5 +1,5 @@
 aiofiles==0.7.0; python_version >= "3.6"
-aniso8601==7.0.0; python_version >= "3.6"
+aniso8601==9.0.1; python_version >= "3.6"
 async-exit-stack==1.0.1; python_version >= "3.6"
 async-generator==1.10; python_version >= "3.6"
 blis==0.7.4; python_version >= "3.6"

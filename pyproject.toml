@@ -24,7 +24,7 @@ fastapi = {extras = ["all"], version = "^0.70.0"}
 pytest = "^6.2.5"
 flake8 = "^4.0.1"
 isort = "^5.10.1"
-black = "^21.11b1"
+black = "^21.12b0"
 pytest-cov = "^3.0.0"
 
 [build-system]

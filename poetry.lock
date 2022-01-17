@@ -191,7 +191,7 @@ url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_s
 
 [[package]]
 name = "fastapi"
-version = "0.71.0"
+version = "0.72.0"
 description = "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
 category = "main"
 optional = false
@@ -873,7 +873,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "476fdffd28e78ba9a1a60d97565aaacf44d1a4cac8296c345bff744d7328f422"
+content-hash = "8e8b42039e69a81c030c918fad8ecc2312fc65f942081e658dd5b2d3f15b68e4"
 
 [metadata.files]
 anyio = [
@@ -1005,8 +1005,8 @@ email-validator = [
 ]
 en-core-web-sm = []
 fastapi = [
-    {file = "fastapi-0.71.0-py3-none-any.whl", hash = "sha256:a78eca6b084de9667f2d5f37e2ae297270e5a119cd01c2f04815795da92fc87f"},
-    {file = "fastapi-0.71.0.tar.gz", hash = "sha256:2b5ac0ae89c80b40d1dd4b2ea0bb1f78d7c4affd3644d080bf050f084759fff2"},
+    {file = "fastapi-0.72.0-py3-none-any.whl", hash = "sha256:7421a2f30e9ed1866874cff089733d4f9a0cd4f49b6ea3995c0de75e32bbb52f"},
+    {file = "fastapi-0.72.0.tar.gz", hash = "sha256:019ec52c00581bc055e6dfb621aaa9c2a56007c283839305412e1073a777eaf1"},
 ]
 flake8 = [
     {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},

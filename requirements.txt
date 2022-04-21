@@ -8,7 +8,7 @@ certifi==2020.12.5; python_version >= "3.6" and python_full_version < "3.0.0" or
 chardet==4.0.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 click==7.1.2; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 colorama==0.4.4
-cymem==2.0.5; python_version >= "3.6"
+cymem==2.0.6; python_version >= "3.6"
 dnspython==2.1.0; python_version >= "3.6"
 email-validator==1.1.2; python_version >= "3.6"
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
@@ -21,7 +21,7 @@ httptools==0.1.2
 idna==2.10; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 itsdangerous==1.1.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_version >= "3.6" and python_full_version >= "3.4.0"
 jinja2==2.11.3; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
-joblib==1.0.1; python_version >= "3.6"
+joblib==1.1.0; python_version >= "3.6"
 markupsafe==1.1.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 murmurhash==1.0.5; python_version >= "3.6"
 nltk==3.6.2; python_version >= "3.5"
@@ -33,10 +33,10 @@ preshed==3.0.5; python_version >= "3.6"
 promise==2.3; python_version >= "3.6"
 pydantic==1.7.4; python_version >= "3.6"
 pyparsing==2.4.7; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
-python-dotenv==0.17.1
+python-dotenv==0.20.0
 python-multipart==0.0.5; python_version >= "3.6"
 pyyaml==5.4.1
-regex==2021.4.4; python_version >= "3.5"
+regex==2022.3.15; python_version >= "3.5"
 requests==2.25.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 rx==3.2.0; python_version >= "3.6"
 six==1.16.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_version >= "3.6" and python_full_version >= "3.3.0"

@@ -54,4 +54,4 @@ uvicorn==0.13.4; python_version >= "3.6"
 uvloop==0.16.0
 wasabi==0.8.2; python_version >= "3.6"
 watchgod==0.8.2
-websockets==8.1
+websockets==10.3

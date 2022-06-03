@@ -9,7 +9,7 @@ chardet==4.0.0; python_version >= "3.6" and python_full_version < "3.0.0" or pyt
 click==7.1.2; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 colorama==0.4.4
 cymem==2.0.6; python_version >= "3.6"
-dnspython==2.1.0; python_version >= "3.6"
+dnspython==2.2.1; python_version >= "3.6"
 email-validator==1.1.2; python_version >= "3.6"
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 fastapi==0.65.1; python_version >= "3.6"

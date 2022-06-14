@@ -400,14 +400,14 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
 [[package]]
 name = "pathy"
-version = "0.5.2"
+version = "0.6.1"
 description = "pathlib.Path subclasses for local and cloud bucket storage"
 category = "main"
 optional = false
 python-versions = ">= 3.6"
 
 [package.dependencies]
-smart-open = ">=2.2.0,<4.0.0"
+smart-open = ">=5.0.0,<6.0.0"
 typer = ">=0.3.0,<1.0.0"
 
 [package.extras]
@@ -598,21 +598,20 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "smart-open"
-version = "3.0.0"
+version = "5.2.1"
 description = "Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)"
 category = "main"
 optional = false
-python-versions = ">=3.5.*"
-
-[package.dependencies]
-requests = "*"
+python-versions = ">=3.6,<4.0"
 
 [package.extras]
-all = ["requests", "boto3", "google-cloud-storage", "azure-storage-blob", "azure-common", "azure-core"]
+all = ["boto3", "google-cloud-storage", "azure-storage-blob", "azure-common", "azure-core", "requests"]
 azure = ["azure-storage-blob", "azure-common", "azure-core"]
-gcp = ["google-cloud-storage"]
+gcs = ["google-cloud-storage"]
+http = ["requests"]
 s3 = ["boto3"]
-test = ["mock", "moto", "pathlib2", "responses", "boto3", "paramiko", "parameterizedtestcase", "pytest", "pytest-rerunfailures"]
+test = ["boto3", "google-cloud-storage", "azure-storage-blob", "azure-common", "azure-core", "requests", "moto[server] (==1.3.14)", "pathlib2", "responses", "paramiko", "parameterizedtestcase", "pytest", "pytest-rerunfailures"]
+webhdfs = ["requests"]
 
 [[package]]
 name = "sniffio"
@@ -1220,8 +1219,8 @@ pathspec = [
     {file = "pathspec-0.9.0.tar.gz", hash = "sha256:e564499435a2673d586f6b2130bb5b95f04a3ba06f81b8f895b651a3c76aabb1"},
 ]
 pathy = [
-    {file = "pathy-0.5.2-py3-none-any.whl", hash = "sha256:01b4ad93f781a9e197d6d6460cf072b8f8a49332fefb3f8af020d2fc1251a982"},
-    {file = "pathy-0.5.2.tar.gz", hash = "sha256:9dbf26cbfe6b91ceed86e1e75d91ded4783c8feb0b06563225c2c75abaca6793"},
+    {file = "pathy-0.6.1-py3-none-any.whl", hash = "sha256:25fd04cec6393661113086730ce69c789d121bea83ab1aa18452e8fd42faf29a"},
+    {file = "pathy-0.6.1.tar.gz", hash = "sha256:838624441f799a06b446a657e4ecc9ebc3fdd05234397e044a7c87e8f6e76b1c"},
 ]
 platformdirs = [
     {file = "platformdirs-2.4.0-py3-none-any.whl", hash = "sha256:8868bbe3c3c80d42f20156f22e7131d2fb321f5bc86a2a345375c6481a67021d"},
@@ -1425,7 +1424,8 @@ six = [
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
 smart-open = [
-    {file = "smart_open-3.0.0.tar.gz", hash = "sha256:7f4e85b71df5a3618f5447d0b417b7a3576308c839690a24a70338b8993684c3"},
+    {file = "smart_open-5.2.1-py3-none-any.whl", hash = "sha256:71d14489da58b60ce12fc3ecb823facc59a8b23cd1b58edb97175640350d3a62"},
+    {file = "smart_open-5.2.1.tar.gz", hash = "sha256:75abf758717a92a8f53aa96953f0c245c8cedf8e1e4184903db3659b419d4c17"},
 ]
 sniffio = [
     {file = "sniffio-1.2.0-py3-none-any.whl", hash = "sha256:471b71698eac1c2112a40ce2752bb2f4a4814c22a54a3eed3676bc0f5ca9f663"},

@@ -26,7 +26,7 @@ markupsafe==1.1.1; python_version >= "3.6" and python_full_version < "3.0.0" or 
 murmurhash==1.0.7; python_version >= "3.6"
 nltk==3.6.2; python_version >= "3.5"
 numpy==1.22.4; python_version >= "3.7"
-orjson==3.7.2; python_version >= "3.6"
+orjson==3.7.3; python_version >= "3.6"
 packaging==20.9; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
 pathy==0.6.1; python_version >= "3.6"
 preshed==3.0.6; python_version >= "3.6"

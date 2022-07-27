@@ -845,7 +845,7 @@ test = ["aiohttp", "flake8 (>=3.9.2,<3.10.0)", "psutil", "pycodestyle (>=2.7.0,<
 
 [[package]]
 name = "wasabi"
-version = "0.9.1"
+version = "0.10.0"
 description = "A lightweight console printing and formatting toolkit"
 category = "main"
 optional = false
@@ -1638,8 +1638,8 @@ uvloop = [
     {file = "uvloop-0.16.0.tar.gz", hash = "sha256:f74bc20c7b67d1c27c72601c78cf95be99d5c2cdd4514502b4f3eb0933ff1228"},
 ]
 wasabi = [
-    {file = "wasabi-0.9.1-py3-none-any.whl", hash = "sha256:217edcb2850993c7931399e7419afccde13539d589e333bc85f9053cf0bb1772"},
-    {file = "wasabi-0.9.1.tar.gz", hash = "sha256:ada6f13e9b70ef26bf95fad0febdfdebe2005e29a08ad58f4bbae383a97298cf"},
+    {file = "wasabi-0.10.0-py3-none-any.whl", hash = "sha256:62d26d6f095779e08f05fbe598d0863c3c3119ea5c478e6b70b80667d84f423c"},
+    {file = "wasabi-0.10.0.tar.gz", hash = "sha256:c386fd8e966e8d5273755e4b9253814ed8f073331330561f1cfb296fa326e91a"},
 ]
 watchgod = [
     {file = "watchgod-0.8.2-py3-none-any.whl", hash = "sha256:2f3e8137d98f493ff58af54ea00f4d1433a6afe2ed08ab331a657df468c6bfce"},

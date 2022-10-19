@@ -671,7 +671,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "srsly"
-version = "2.4.4"
+version = "2.4.5"
 description = "Modern high-performance serialization utilities for Python"
 category = "main"
 optional = false
@@ -1537,30 +1537,34 @@ spacy-legacy = [
     {file = "spacy_legacy-3.0.10-py2.py3-none-any.whl", hash = "sha256:8526a54d178dee9b7f218d43e5c21362c59056c5da23380b319b56043e9211f3"},
 ]
 srsly = [
-    {file = "srsly-2.4.4-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:e0c6510716e5cb2abf11abcbe06338283b01690955342e78a76fcb9953b7e3ba"},
-    {file = "srsly-2.4.4-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:cb65e2d67980419072379abef1e5b1d3b11931082bc038b0295d35a56376c3d5"},
-    {file = "srsly-2.4.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:30eb733770b69593ac31ff84df41455e45bb2e48bf44c1382bc40f10be3e8936"},
-    {file = "srsly-2.4.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:1a90233d5ef978db5887d0d159fa5652bfecde353812c4b4e293791460db2211"},
-    {file = "srsly-2.4.4-cp310-cp310-win_amd64.whl", hash = "sha256:c96963e1db238014525f924d5d5058ee9386e129c82f24cc63fead41902e1c06"},
-    {file = "srsly-2.4.4-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:a6d03f65c079e98fcd635f19c65c0ddb7b06f1069332fb87c74e36d7c3ca883d"},
-    {file = "srsly-2.4.4-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e1866a1a5ea8c7bb213b0c3c7a7b97cd6d9a3ca26f2f59e441d47fa9720fb399"},
-    {file = "srsly-2.4.4-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2702ab0858bb27cefe684cc01be5f28ca05d204dc60b52efd122434864a347bd"},
-    {file = "srsly-2.4.4-cp36-cp36m-win_amd64.whl", hash = "sha256:bd4f7e2b43187d4fc5095fb01fe7b7868a777eb12315ff1ac07e3243fd4493e8"},
-    {file = "srsly-2.4.4-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:4bb401bf8477b685d933670bcec6b430b8e8025cd68da1e6bacfd57f6d8191d5"},
-    {file = "srsly-2.4.4-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5054c25a9b923d33f54e7bbab8c5be669db94b9bab87e348439bf85f3d644825"},
-    {file = "srsly-2.4.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8abfca6b34c8a03608ca9c6e54e315c30d240cc3aae942a412c52742d15a089b"},
-    {file = "srsly-2.4.4-cp37-cp37m-win_amd64.whl", hash = "sha256:c85962bf1d6f52b9d5d2e727a4e3c558a6b00cecadea29141f122f6c83147cca"},
-    {file = "srsly-2.4.4-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:964bdc3f8ff4a5e66ab2685e001b78f6ca2ce68fe4817842f4f342abad2fddbb"},
-    {file = "srsly-2.4.4-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:47e6ce2aed95aa2f55b9a967f34f82cf170ff2c0e126d3422ede106dbfe4922c"},
-    {file = "srsly-2.4.4-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4efa441fc54d3f2300c6ce48f9e44ed9850f2627c0ebeaa320b206b470679e63"},
-    {file = "srsly-2.4.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:1ce17dcf2acd26f3add82d94a29d264bd72364071a29dccdd335d4c1826e4e98"},
-    {file = "srsly-2.4.4-cp38-cp38-win_amd64.whl", hash = "sha256:372204bbb7089ecc99fa984f0ef6c06063dcf6ac1abf0d896605486a2cdf5779"},
-    {file = "srsly-2.4.4-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:d6733ddaf0b2db54f334a2e881f1112be0ff48f113c96bcd88d1aec1ff871ca8"},
-    {file = "srsly-2.4.4-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:74acd1e52235fa46a3ede5c34f33adf8bad4050bbf44ec04d76369c4aed9041e"},
-    {file = "srsly-2.4.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:930164882db523020c7660b12a7f3b0d9266781012004fa2e8ad6150412493e1"},
-    {file = "srsly-2.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8235975d943587b4d17fc10e860b11d9248f58c0b74e95f911bd70b24542c630"},
-    {file = "srsly-2.4.4-cp39-cp39-win_amd64.whl", hash = "sha256:708623d4e4503fee4cd9c727d471ab6918b664e177fbe413b0ddd2debb45437a"},
-    {file = "srsly-2.4.4.tar.gz", hash = "sha256:e8a06581627b6712f19c60241b7c14c2bb29ce86ef04f791379a79f1b249a128"},
+    {file = "srsly-2.4.5-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:8fed31ef8acbb5fead2152824ef39e12d749fcd254968689ba5991dd257b63b4"},
+    {file = "srsly-2.4.5-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:04d0b4cd91e098cdac12d2c28e256b1181ba98bcd00e460b8e42dee3e8542804"},
+    {file = "srsly-2.4.5-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6d83bea1f774b54d9313a374a95f11a776d37bcedcda93c526bf7f1cb5f26428"},
+    {file = "srsly-2.4.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:cae5d48a0bda55a3728f49976ea0b652f508dbc5ac3e849f41b64a5753ec7f0a"},
+    {file = "srsly-2.4.5-cp310-cp310-win_amd64.whl", hash = "sha256:f74c64934423bcc2d3508cf3a079c7034e5cde988255dc57c7a09794c78f0610"},
+    {file = "srsly-2.4.5-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:0f9abb7857f9363f1ac52123db94dfe1c4af8959a39d698eff791d17e45e00b6"},
+    {file = "srsly-2.4.5-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:f48d40c3b3d20e38410e7a95fa5b4050c035f467b0793aaf67188b1edad37fe3"},
+    {file = "srsly-2.4.5-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1434759effec2ee266a24acd9b53793a81cac01fc1e6321c623195eda1b9c7df"},
+    {file = "srsly-2.4.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5e7b0cd9853b0d9e00ad23d26199c1e44d8fd74096cbbbabc92447a915bcfd78"},
+    {file = "srsly-2.4.5-cp311-cp311-win_amd64.whl", hash = "sha256:874010587a807264963de9a1c91668c43cee9ed2f683f5406bdf5a34dfe12cca"},
+    {file = "srsly-2.4.5-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:afa4e1fe143275339d1c4a74e46d4c75168eed8b200f44f2ea023d45ff089a2f"},
+    {file = "srsly-2.4.5-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:1c4291ee125796fb05e778e9ca8f9a829e8c314b757826f2e1d533e424a93531"},
+    {file = "srsly-2.4.5-cp36-cp36m-win_amd64.whl", hash = "sha256:8f258ee69aefb053258ac2e4f4b9d597e622b79f78874534430e864cef0be199"},
+    {file = "srsly-2.4.5-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:ace951c3088204bd66f30326f93ab6e615ce1562a461a8a464759d99fa9c2a02"},
+    {file = "srsly-2.4.5-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:facab907801fbcb0e54b3532e04bc6a0709184d68004ef3a129e8c7e3ca63d82"},
+    {file = "srsly-2.4.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a49c089541a9a0a27ccb841a596350b7ee1d6adfc7ebd28eddedfd34dc9f12c5"},
+    {file = "srsly-2.4.5-cp37-cp37m-win_amd64.whl", hash = "sha256:db6bc02bd1e3372a3636e47b22098107c9df2cf12d220321b51c586ba17904b3"},
+    {file = "srsly-2.4.5-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:9a95c682de8c6e6145199f10a7c597647ff7d398fb28874f845ba7d34a86a033"},
+    {file = "srsly-2.4.5-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:8c26c5c0e07ea7bb7b8b8735e1b2261fea308c2c883b99211d11747162c6d897"},
+    {file = "srsly-2.4.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e0043eff95be45acb5ce09cebb80ebdb9f2b6856aa3a15979e6fe3cc9a486753"},
+    {file = "srsly-2.4.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a2075124d4872e754af966e76f3258cd526eeac84f0995ee8cd561fd4cf1b68e"},
+    {file = "srsly-2.4.5-cp38-cp38-win_amd64.whl", hash = "sha256:1a41e5b10902c885cabe326ba86d549d7011e38534c45bed158ecb8abd4b44ce"},
+    {file = "srsly-2.4.5-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:b5a96f0ae15b651fa3fd87421bd93e61c6dc46c0831cbe275c9b790d253126b5"},
+    {file = "srsly-2.4.5-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:764906e9f4c2ac5f748c49d95c8bf79648404ebc548864f9cb1fa0707942d830"},
+    {file = "srsly-2.4.5-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:95afe9625badaf5ce326e37b21362423d7e8578a5ec9c85b15c3fca93205a883"},
+    {file = "srsly-2.4.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:90359cc3c5601afd45ec12c52bde1cf1ccbe0dc7d4244fd1f8d0c9e100c71707"},
+    {file = "srsly-2.4.5-cp39-cp39-win_amd64.whl", hash = "sha256:2d3b0d32be2267fb489da172d71399ac59f763189b47dbe68eedb0817afaa6dc"},
+    {file = "srsly-2.4.5.tar.gz", hash = "sha256:c842258967baa527cea9367986e42b8143a1a890e7d4a18d25a36edc3c7a33c7"},
 ]
 starlette = [
     {file = "starlette-0.20.4-py3-none-any.whl", hash = "sha256:c0414d5a56297d37f3db96a84034d61ce29889b9eaccf65eb98a0b39441fcaa3"},

@@ -24,7 +24,7 @@ jinja2==2.11.3; python_version >= "3.6" and python_full_version < "3.0.0" or pyt
 joblib==1.2.0; python_version >= "3.6"
 markupsafe==1.1.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 murmurhash==1.0.9; python_version >= "3.6"
-nltk==3.6.2; python_version >= "3.5"
+nltk==3.8.1; python_version >= "3.5"
 numpy==1.24.1; python_version >= "3.7"
 orjson==3.8.3; python_version >= "3.6"
 packaging==20.9; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"

@@ -10,7 +10,7 @@ click==7.1.2; python_version >= "3.6" and python_full_version < "3.0.0" or pytho
 colorama==0.4.6
 cymem==2.0.7; python_version >= "3.6"
 dnspython==2.3.0; python_version >= "3.6"
-email-validator==2.0.0.post1; python_version >= "3.6"
+email-validator==2.0.0.post2; python_version >= "3.6"
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 fastapi==0.95.1; python_version >= "3.6"
 graphene==3.2.2; python_version >= "3.6"

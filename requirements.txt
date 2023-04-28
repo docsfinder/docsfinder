@@ -50,7 +50,7 @@ tqdm==4.60.0; python_version >= "3.6" and python_full_version < "3.0.0" or pytho
 typer==0.3.2; python_version >= "3.6"
 ujson==5.7.0; python_version >= "3.6"
 urllib3==1.26.4; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version < "4" and python_version >= "3.6"
-uvicorn==0.21.1; python_version >= "3.6"
+uvicorn==0.22.0; python_version >= "3.6"
 uvloop==0.17.0
 wasabi==1.1.1; python_version >= "3.6"
 watchgod==0.8.2

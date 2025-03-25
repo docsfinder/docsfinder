@@ -32,7 +32,7 @@ pathy==0.11.0; python_version >= "3.6"
 preshed==3.0.9; python_version >= "3.6"
 promise==2.3; python_version >= "3.6"
 pydantic==2.10.6; python_version >= "3.6"
-pyparsing==3.2.2; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
+pyparsing==3.2.3; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
 python-dotenv==1.0.1
 python-multipart==0.0.20; python_version >= "3.6"
 pyyaml==6.0.2

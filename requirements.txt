@@ -16,7 +16,7 @@ fastapi==0.99.1; python_version >= "3.6"
 graphene==3.4.3; python_version >= "3.6"
 graphql-core==3.2.6; python_version >= "3.6"
 graphql-relay==3.2.0; python_version >= "3.6"
-h11==0.14.0; python_version >= "3.6"
+h11==0.16.0; python_version >= "3.6"
 httptools==0.6.4
 idna==3.10; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 itsdangerous==2.2.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_version >= "3.6" and python_full_version >= "3.4.0"

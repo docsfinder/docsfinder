@@ -35,7 +35,7 @@ pydantic==2.14.4; python_version >= "3.6"
 pyparsing==3.3.3; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
 python-dotenv==1.2.4
 python-multipart==0.0.32; python_version >= "3.6"
-pyyaml==6.0.3
+pyyaml==6.0.4
 regex==2026.9.29; python_version >= "3.5"
 requests==2.34.2; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 rx==3.2.0; python_version >= "3.6"
